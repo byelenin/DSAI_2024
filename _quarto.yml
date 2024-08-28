@@ -1,0 +1,50 @@
+project:
+  type: website
+  output-dir: docs
+
+website:
+  title: "Intro to 'Metrics at NJU"
+  description: "Course taught by Professor Zhaopeng Qu at Business School of Nanjing University"
+  site-url: "https://byelenin.github.io/Metrics_2024/"
+  favicon: "/Pics/logo.png"
+  navbar:
+    left:
+    # your sub-pages
+      - text: "Syllabus"
+        href: syllabus/index.qmd
+      - text: "Schedule"
+        href: schedule/index.qmd
+      - text: "Lab Sessions"
+        href: lab/index.qmd
+      - text: "Project"
+        href: project/index.qmd  
+      - text: "Homework"
+        href: homeworks/index.qmd
+
+    right:
+      - icon: github
+        href: https://github.com
+      - icon: envelope
+        aria-label: email
+        href: "mailto:qu@nju.edu.cn"    
+  sidebar:
+    style: "docked"
+    search: true
+    contents:
+      - text: "Instructor"
+        href: https://byelenin.github.io/
+      - text: "TAs"
+        href: About/TAs.qmd
+  page-navigation: true
+
+format:
+  html:
+    theme: 
+    - Zephyr
+    - Css/custom.scss
+    fontsize: 0.9em
+    linestretch: 1
+    toc: true
+    highlight-style: monokai
+editor: visual
+

@@ -1,0 +1,38 @@
+---
+title: "**Schedule and Slides** "
+subtitle: "Intro 'Metrics, Spring 2024"
+#date: "`r Sys.Date()`"
+#author: "曲兆鹏"
+#institute: "南京大学"
+output:
+  prettydoc::html_pretty:
+    theme: leonids
+    highlight: github
+---
+
+```{=html}
+<style type="text/css">
+  body{
+  font-size: 14pt;
+}
+</style>
+```
+| Week | Date | Topic                                                                   |                                               Slides                                               |
+|:----------------:|:-----------------|:-----------------|:-----------------:|
+|  1   | 2/29 | Introduction                                                            |         [Lec0](https://byelenin.github.io/Metrics_2023/Slides/2024/Metrics_Lec0_2024.pdf)          |
+|  2   | 3/7  | Introduction to Causal inference and Randomized Controlled Trials(RCTs) |         [Lec1](https://byelenin.github.io/Metrics_2023/Slides/2024/Metrics_Lec1_2024.pdf)          |
+|  3   | 3/14 | Simple OLS Regression Estimation                                        |         [Lec2](https://byelenin.github.io/Metrics_2023/Slides/2024/Metrics_Lec2_2024.pdf)          |
+|  4   | 3/21 | Multiple OLS Regression Estimation                                      |         [Lec3](https://byelenin.github.io/Metrics_2023/Slides/2024/Metrics_Lec3_2024.pdf)          |
+|  5   | 3/28 | Hypothesis Tests and Confidence Intervals                               |         [Lec4](https://byelenin.github.io/Metrics_2023/Slides/2024/Metrics_Lec4_2024.pdf)          |
+|  6   | 4/11 | Nonlinear Regression: Function Forms                                    |         [Lec5](https://byelenin.github.io/Metrics_2023/Slides/2024/Metrics_Lec5_2024.pdf)          |
+|  7   | 4/18 | Nonlinear Regression: Binary Dependent Variable                         |         [Lec6](https://byelenin.github.io/Metrics_2023/Slides/2024/Metrics_Lec6_2024.pdf)          |
+|  8   | 4/25 | Assessing Studies: Internal Validity(I)                                 |    [Lec7](https://byelenin.github.io/Metrics_2023/Slides/2024/Metrics_Lec7_2024_U.pdf)(updated)    |
+|  9   | 5/2  | Assessing Studies: Internal Validity(II)                                | [Lec8](https://byelenin.github.io/Metrics_2023/Slides/2024/Metrics_Lec8_2024_Revised.pdf)(revised) |
+|  10  | 5/9  | Matching                                                                |         [Lec9](https://byelenin.github.io/Metrics_2023/Slides/2024/Metrics_Lec9_2024.pdf)          |
+|  11  | 5/16 | Instrumental Variable                                                   |        [Lec10](https://byelenin.github.io/Metrics_2023/Slides/2024/Metrics_Lec10_2024.pdf)         |
+|  12  | 5/23 | Regression Discontinuity Design                                         |        [Lec11](https://byelenin.github.io/Metrics_2023/Slides/2024/Metrics_Lec11_2024.pdf)         |
+|  13  | 5/30 | Panel Data(I): Fixed Effect                                             |        [Lec12](https://byelenin.github.io/Metrics_2023/Slides/2024/Metrics_Lec12_2024.pdf)         |
+|  14  | 6/6  | Panel Data(II): Difference-in-Differences                               |        [Lec13](https://byelenin.github.io/Metrics_2023/Slides/2024/Metrics_Lec13_2024.pdf)         |
+|  15  | 6/13 | Final Review                                                            |       [Lec14](https://byelenin.github.io/Metrics_2023/Slides/2024/Metrics_FinalReview_2024.pdf)     |
+
+: Fruit prices {.striped .hover}

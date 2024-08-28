@@ -1,0 +1,18 @@
+---
+title: "Homework"
+subtitle: "Intro 'Metrics,Spring 2024"
+---
+
+# Schedule
+
+::: callout-tip
+## Schedule
+
+The 1st homework is due on **April 14 2:00 am**.
+
+:::
+
+| No. |                                   Topic                                   | Due to |
+|:---------------:|:------------------------------------:|:---------------:|
+|  1  | [Homework](<https://byelenin.github.io/Metrics_2023/HWs/HW1_2024.pdf>) |    **April 14 2:00 am**    |
+|  2  |                              \[Homework 2\]                               |        |

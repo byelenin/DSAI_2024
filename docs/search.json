@@ -1,0 +1,149 @@
+[
+  {
+    "objectID": "part_1_prep.html",
+    "href": "part_1_prep.html",
+    "title": "Preparation",
+    "section": "",
+    "text": "Page without code\n\n\n\nThis page contains an example for some structured preparation information for a workshop. No code is executed here.\nHere are some preparation information for the participants."
+  },
+  {
+    "objectID": "part_1_prep.html#software",
+    "href": "part_1_prep.html#software",
+    "title": "Preparation",
+    "section": "Software",
+    "text": "Software\nIn this workshop we will be using R. You can either\n\nhave R and Rstudio installed on your laptop\nor, use Posit cloud (formerly Rstudio Cloud).\n\nPosit cloud is free of charge for personal users, yet you need to sign up for a new user account and have internet connection.\nThe R package we are using is glmnet."
+  },
+  {
+    "objectID": "part_1_prep.html#data",
+    "href": "part_1_prep.html#data",
+    "title": "Preparation",
+    "section": "Data",
+    "text": "Data\nThe datasets we use can be found here (insert link)."
+  },
+  {
+    "objectID": "part_1_prep.html#code",
+    "href": "part_1_prep.html#code",
+    "title": "Preparation",
+    "section": "Code",
+    "text": "Code\nThe R scripts used in part 1 and part 2 can be found here (insert link)."
+  },
+  {
+    "objectID": "part_1_prep.html#resources",
+    "href": "part_1_prep.html#resources",
+    "title": "Preparation",
+    "section": "Resources",
+    "text": "Resources\nLecture notes (insert link)\nLab notes (insert link)"
+  },
+  {
+    "objectID": "project/index.html",
+    "href": "project/index.html",
+    "title": "Research Proposal",
+    "section": "",
+    "text": "本学期计量课期末考试的重要部分。主要考察同学们运用计量方法进行研究设计以及实际利用计量软件处理现实数据的动手能力等方面。\n占总成绩的\\(30\\%\\)。(其他各部分占比：出勤率\\(10\\%\\)，作业\\(20\\%\\)，期末考试\\(40\\%\\))\n由于本学期选课人数较多，因此我们将以研究小组形式提交研究计划。每个小组2人，每组提交研究项目1个。（如果实在找不到合作伙伴，可以向助教或老师求助）"
+  },
+  {
+    "objectID": "project/index.html#研究计划基本要求",
+    "href": "project/index.html#研究计划基本要求",
+    "title": "Research Proposal",
+    "section": "研究计划基本要求：",
+    "text": "研究计划基本要求：\n\n推荐使用微观数据集(数据结构为Cross-sectional 或 Panel)\n推荐使用本文后面介绍的微观数据集或者从网络上收集的相关数据，尤其是鼓励大家使用作业中清理好的数据集。\n语言：中英文书写均可，提交英文者，卷面会根据情况适当多给5-10分。\n篇幅与字数：2000字数以上+图表若干，至少3页以上（A4页）。"
+  },
+  {
+    "objectID": "project/index.html#附件afor-a-research-proposal研究计划内容指南",
+    "href": "project/index.html#附件afor-a-research-proposal研究计划内容指南",
+    "title": "Research Proposal",
+    "section": "附件A：For A Research Proposal(研究计划内容指南）",
+    "text": "附件A：For A Research Proposal(研究计划内容指南）\n一篇好的经验研究项目计划书的大致内容应该有如下部分：\n\n研究动机\n\n\n拟发现或提出的提出的问题。\n从研究问题的理论、经验和政策三方面来说为什么本研究有意义？\n\n\n文献回顾\n\n\n对之前的文献进行简要的综述，主要结论是什么？\n这些研究可能存在哪些缺陷？\n本文的研究以哪些重要文献作为研究基础，并有可能在哪些方面对上述文献进行扩展或改进？\n\n\n研究方法和拟解决的关键性问题\n\n\n你的项目中最关心的变量是什么？自变量和因变量是什么？ 在项目要克服的主要的识别的困难是什么？（即是否样本不随机，存在自选择或者互为因果等关系？）\n所以，为了克服上述困难，你打算所采用的主要经验研究方法是什么？（比如我们上课介绍的多元回归、分解、工具变量、双重差分法和断点回归等等）。为什么这种方法能够解决你研究中的识别困难？\n\n\n数据来源和数据类型 数据从何而来，以什么为单位？为什么你所使用的数据适合做本项目的研究，该数据有哪些优势和劣势？\n1）从数据类型上看，属于我们上课所说的哪种类型？\n\ncross-sectional\npanel\ntime series\n\n2）数据是否要进行一些处理，比如去掉一些缺失值和异常值等或者去掉一些不符合条件的样本。比如研究工资问题，通常将不在工作状态的样本去掉。\n3）研究问题中自变量和因变量分别对应数据库中哪个或哪些变量？\n数据的基本描述\n\n数据信息的基本描述:我们最关心的因变量、自变量和其他控制变量的基本统计性描述信息（均值、方差、最大值最小值等等）。\n如果有可能的话可以做比较两组均值的差异分析（类似我们上课做的），再用散点图看一看因变量和自变量之间的关系。\n\n预期的结果\n\n本研究项目期望得到的结果是什么？\n结果对研究和政策有哪些直接的贡献？\n研究结果的潜在的局限性有哪些？如何能够克服？"
+  },
+  {
+    "objectID": "project/index.html#potential-topics",
+    "href": "project/index.html#potential-topics",
+    "title": "Research Proposal",
+    "section": "Potential Topics",
+    "text": "Potential Topics\n\n人口与劳动经济学\n\n健康和营养方面：比如肥胖、吸烟和喝酒对工资、家庭消费和福利的影响\n教育和培训：在职培训对城市居民和农民工就业及工资的影响。\n失业就业研究：“四万亿”投资与就业、“一带一路”策略与就业、工作流动性研究\n劳动力市场市场化程度研究\n农民工工资上涨的原因？劳动力短缺还是制度原因（最低工资制度还是劳动合同法）\n人口问题：计划生育、二胎的影响\n新《劳动合同法》、机器人更新换代、产业升级、新冠肺炎疫情的相关影响？\n\n教育经济学\n\n城乡中学教育质量的差异？\n“补课”是否有用？\n“快慢班”对学生成绩的影响？\n家长投入（时间、金钱等方面）对学生学习成绩的影响？\n“重点学校”对学生成绩的影响？\n“教培”行业被整顿对学生成绩的影响\n\n发展经济学\n\n\n收入分配：工资不平等和收入不平等和代际传递\n城乡移民迁移：\n\n\n\n迁移决策的决定：教育、土地、家庭结构及社会网络如何决定移民的决策？\n对迁移地的影响：比如农民工迁移对当地就业和工资的影响\n对迁出地的影响：比如农民工迁移对农村收入分配和贫困的影响\n其他衍生问题：子女教育、婚姻质量、青年农民工等等\n\n\n\n腐败问题：\n\n\n\n反腐运动对家庭消费、奢侈品消费、餐饮消费的影响？\n被双规的官员的特征(是否有某些决定性的因素决定了容易腐败？比如是否是副职，是否在某些特定部门（财税、建设、交通、还是。。。）是否有年龄效应（59岁），（找到一个影响最大的来研究）腐败的程度是否有差别？\n\n\n环境与健康\n\n空气、水污染的原因：与交通、工业之间的关系\n空气、水污染的治理与经济发展\n空气、水污染对居民健康、劳动生产率、消费、幸福感等方面的影响\n\n其实还有很多很多的问题都可以做，上面只是我暂时想到的一些题目，特点是一般都有相应的数据支持，有一定的文献积累。也特别欢迎你们想一些自己感兴趣的题目，我相信：“兴趣永远是最好的老师”。希望大家都能认真准备，最后能给我一些惊喜！"
+  },
+  {
+    "objectID": "project/index.html#附件b重要微观数据库简要汇总",
+    "href": "project/index.html#附件b重要微观数据库简要汇总",
+    "title": "Research Proposal",
+    "section": "附件B：重要微观数据库简要汇总",
+    "text": "附件B：重要微观数据库简要汇总\n\n1. 住户调查\n\n中国家庭收入调查:China Household Income Project Survey(CHIPs)\n\n负责机构：北京师范大学中国收入分配研究院\n数据结构：多年截面数据\n年份：1988、1995、1999、2002、2007、2008、2013\n覆盖范围：城市、农村和城乡移民家庭（2002年开始）\n主要变量：1）个人：基本状况、工作信息和收入等；2）家庭：收入、消费、资产和居住情况等。3）社区（村庄）层面信息。\n\n中国家庭追踪调查: China Family Panel Survey(CFPS)\n\n负责机构：北京大学中国社科调查中心\n数据结构：多年面板数据\n年份：2010、2012、2014和2016\n覆盖范围：城市和农村\n主要变量：1）个人：基本状况、工作、收入、健康等信息；2）家庭：收入、消费、资产和居住情况等；3）社区信息\n\n中国健康养老追踪调查:China Health and Retirement Longitudinal Study\n\n负责机构：北京大学中国经济研究中心\n数据结构：多年面板数据\n年份：2011、2013、2014和2015\n覆盖范围：城市和农村有45岁以上老人的家庭\n主要变量：非常详细的个人和家庭的信息包括很详细的个人健康信息\n\n中国-印尼城乡移民调查：Rural to Urban Migration in China(RUMiC)\n\n负责机构：澳大利亚国立大学、IZA和北京师范大学（现已经更换为暨南大学）\n数据结构：多年面板数据\n年份：2008-2017（目前可获取的只有2008-2009）\n覆盖范围：城市、农村和城乡移民\n主要变量：1）个人：基本状况、工作信息和收入等；2）家庭：收入、消费、资产和居住情况等\n\n中国社会综合调查： China General Social Survey(CGSS)\n\n负责机构：中国人民大学中国调查与数据中心\n数据结构：多年截面数据\n年份：2003、2005、2006、2008、2010、2011、2012、2013\n覆盖范围：城市和农村\n主要变量：1）个人：基本状况、工作和收入等信息之外，主要收集了价值观（包涵对很多社会问题的态度和观点等）2）家庭结构和状况等信息，3）社区信息\n\n中国劳动力动态调查(CLDS)\n中国健康与营养调查(CHNS)\n中国家庭金融调查(CHFS)\n中国基础教育追踪调查(CEPS)\n甘肃基础教育调查\n中国城镇住户调查（UHS）\n农业部固定观察点农户调查\n流动人口动态监测数据\n贫困人口动态监测数据\n\n\n\n2. 企业调查\n\n中国工业企业数据库\n中国海关进出口数据\n上市公司数据（万德/国泰君安数据库）\n\n\n\n3. 各级各类统计年鉴\n\n县级统计年鉴\n城市统计年鉴\n各省统计年鉴\n\n\n\n4. 其他网络大数据\n\n环境数据（环保部：空气、水和土壤）\n各级各类官员数据（省、市和县）\n豆瓣、猫眼和易恩网电影数据\n体育网站的体育赛事数据\n房地产数据（链家）\n国土利用数据（国土部遥感数据）\n灯光数据（NASA)\n京东、天猫、亚马逊和淘宝\n携程等机票、宾馆价格数据"
+  },
+  {
+    "objectID": "syllabus/Syllabus.html",
+    "href": "syllabus/Syllabus.html",
+    "title": "Schedule(日程安排)",
+    "section": "",
+    "text": "Schedual(日程安排)\n\n\n\nWeek\nDate\nTopic\nSlides\n\n\n\n\n1\n9/8\nIntroduction\nLec0\n\n\n2\n9/15\nIntroduction to Causal inference and Randomized Controlled Trials(RCTs)\nLec1\n\n\n3\n9/22\nSimple OLS Regression Estimation\nLec2\n\n\n4\n9/29\nMultiple OLS Regression Estimation\nLec3\n\n\n5\n10/6\nMultiple OLS Regression Estimation\nLec4\n\n\n6\n10/13\nOLS Regression: Inference\nLec5\n\n\n7\n10/20\nRegression: Nonlinear Functions\nLec6\n\n\n8\n10/27\nRegression: Binary Dependent Variable Functions(II)\nLec7\n\n\n9\n11/3\nAssessing Studies: Internal Validity\nLec8\n\n\n10\n11/10\nLab sessions: Binary Dependent Variables and Heckman Selection Model\n\n\n\n11\n11/17\nInstrumental Variable(I)\nLec9\n\n\n12\n11/24\nInstrumental Variable(II)\n[Lec9]\n\n\n13\n12/1\nRegression Discontinuity Design\nLec10 Lec10B\n\n\n14\n12/8\nIntroduction to Panel Data\nLec11\n\n\n15\n12/15\nPanel Data: DID and SCM\nLec12\n\n\n\n|16 | 12/22 | Final Review |[Lec13]|"
+  },
+  {
+    "objectID": "index.html#news",
+    "href": "index.html#news",
+    "title": "Introduction to Econometrics",
+    "section": "News",
+    "text": "News\n\n\n\n\n\n\nImportant\n\n\n\nHello everyone, time certainly does fly. Tomorrow’s lecture will be our last. As usual, the lecture will be divided into two parts. In the first two hours, I’ll conclude our discussion on the DID method. During the final hour, I’ll provide a brief review of the semester’s content and hold a Q & A session about the final exam. Looking forward to seeing you all tomorrow~~"
+  },
+  {
+    "objectID": "index.html#course-description",
+    "href": "index.html#course-description",
+    "title": "Introduction to Econometrics",
+    "section": "Course Description",
+    "text": "Course Description\nWelcome to the course website for the 2024 edition of Introduction to Econometrics, also known as “Intro’Metrics”(Jiliang). This course is delivered by Prof. Zhaopeng Qu and his teaching assistants at the Business School, Nanjing University.\nIt introduces students to modern econometrics, including causal inference, time series, and machine learning techniques, and their applications in economics and other social sciences. The course focuses more on intuition and practical examples, while keeping the mathematical content to a minimum. Notably, matrix notation is not used.\nThe goal is to help students develop a solid theoretical background in introductory level econometrics, an ability to implement modern econometric methods, and a critical thinking about empirical studies in economics and other social sciences.\nSpecifically, we will learn six common econometric research design techniques that aim to credibly estimate causal effects and reliably make prediction on economic and social relationships:\n\nRandomized Controlled Trial(RCT)\nRegression(OLS)\nInstrumental Variables(IV)\nRegression Discontinuity Designs(RDD)\nPanel Data and Differences-in-Differences(DID)\nTimes Series and Machine Learning(TS and ML)\n\nAt the end, students will use at least one of them above to finish an empirical research proposal.\n\n\n\n\n\n\nImportant\n\n\n\nWe’ll be using “教学立方” for attendance tracking in class. Please join the class “计量经济学” in advance with the invite code H5K8XZFV. A user’s guide for “教学立方” is here.\n\n\n\n\n\n\n\n\n\n\n\n\n\nAcknowledge\nThe development of this course has greatly benefited from the educational materials generously shared by various professors including Scott Cunningham,Ed Rubin and Andrew Heiss.Their slides and webpages have been invaluable in enriching the content and facilitating my deeper understanding of Econometrics.Their insights, particularly those from the textbook Data Analysis for Business, Economics and Policy, and Policy’ by Gábor Békés and and Gábor Kézdi, have been instrumental in enhancing the quality and depth of the course material."
+  },
+  {
+    "objectID": "lab/index.html",
+    "href": "lab/index.html",
+    "title": "Computer Labs",
+    "section": "",
+    "text": "Schedule(上机课详细日程安排)\n\n\n\n\n\n\nTip\n\n\n\n\nLocation: Yifu Building B-407\nTime: Friday 16:00-18:00\n\n\n\n\n\n\nNo.\nTopic\nRecite\nStata_Slides\nR_Slides\nDate\n\n\n\n\n1\nLab1: Introduction\nMathReview1\nLec1_S\nLec1_R\n3/1\n\n\n2\nLab2: Data Management(I)\nMathReview2\nLec2_S()\nLec2_R\n3/8\n\n\n3\nLab3: Data Management(II)\n\nLec3_S()\nLec3_S()\n3/15\n\n\n4\nLab4: Markdown Output\n\nLec4_S()\nLec4_S()\n3/22\n\n\n5\nLab5: Tables and Figures\n\nLec5_S()\nLec5_S()\n4/5\n\n\n6\nLab6: OLS Regression\n\nLec6_S()\nLec6_S()\n4/19\n\n\n7\nLab7: Binary and Limited Dependent Variables\n\nLec7_S()\nLec7_S()\n4/26\n\n\n8\nLab8: Fixed Effect and Panel Data\n\nLec8_S()\nLec8_S()\n5/10\n\n\n9\nLab9: DID\n\nLec9_S()\nLec9_S\n5/24\n\n\n10\nLab10: Time series and ML\n\nLec10_S()\nLec10_S\n6/7"
+  },
+  {
+    "objectID": "schedule/index.html",
+    "href": "schedule/index.html",
+    "title": "Schedule and Slides",
+    "section": "",
+    "text": "Fruit prices\n\n\nWeek\nDate\nTopic\nSlides\n\n\n\n\n1\n2/29\nIntroduction\nLec0\n\n\n2\n3/7\nIntroduction to Causal inference and Randomized Controlled Trials(RCTs)\nLec1\n\n\n3\n3/14\nSimple OLS Regression Estimation\nLec2\n\n\n4\n3/21\nMultiple OLS Regression Estimation\nLec3\n\n\n5\n3/28\nHypothesis Tests and Confidence Intervals\nLec4\n\n\n6\n4/11\nNonlinear Regression: Function Forms\nLec5\n\n\n7\n4/18\nNonlinear Regression: Binary Dependent Variable\nLec6\n\n\n8\n4/25\nAssessing Studies: Internal Validity(I)\nLec7(updated)\n\n\n9\n5/2\nAssessing Studies: Internal Validity(II)\nLec8(revised)\n\n\n10\n5/9\nMatching\nLec9\n\n\n11\n5/16\nInstrumental Variable\nLec10\n\n\n12\n5/23\nRegression Discontinuity Design\nLec11\n\n\n13\n5/30\nPanel Data(I): Fixed Effect\nLec12\n\n\n14\n6/6\nPanel Data(II): Difference-in-Differences\nLec13\n\n\n15\n6/13\nFinal Review\nLec14"
+  },
+  {
+    "objectID": "resources/index.html",
+    "href": "resources/index.html",
+    "title": "Introduction to Econometrics @ Business School, Nanjing University",
+    "section": "",
+    "text": "补充建设中…"
+  },
+  {
+    "objectID": "part_2_eda.html",
+    "href": "part_2_eda.html",
+    "title": "Part I",
+    "section": "",
+    "text": "Page with R code\n\n\n\nThis page contains an example template for a lab session, where R code and results are displayed here.\nYou can find more information on how to include code in Quarto website here.\nYou can experiment with code-fold and code-tools in the yaml header above to change how the code cells look like."
+  },
+  {
+    "objectID": "part_2_eda.html#a-cancer-modeling-example",
+    "href": "part_2_eda.html#a-cancer-modeling-example",
+    "title": "Part I",
+    "section": "A Cancer Modeling Example",
+    "text": "A Cancer Modeling Example\nExercise on analysis of miRNA, mRNA and protein data from the paper Aure et al, Integrated analysis reveals microRNA networks coordinately expressed with key proteins in breast cancer, Genome Medicine, 2015.\nPlease run the code provided to replicate some of the analyses. Make sure you can explain what all the analysis steps do and that you understand all the results.\nIn addition, there are some extra tasks (Task 1), where no R code is provided. Please do these tasks when you have time available at the end of the lab.\n\nLoad the data\nRead the data, and convert to matrix format.\n\nmrna &lt;- read.table(\"data/data_example.txt\", header=T, sep=\"\\t\", dec=\".\")\n\n# Convert to matrix format\n\nmrna &lt;- as.matrix(mrna)\n\nPrint the data\n\nmrna[1:4, 1:4]\n\n      OSL2R.3002T4 OSL2R.3005T1 OSL2R.3013T1 OSL2R.3030T2\nACACA      1.60034     -0.49087     -0.26553     -0.27857\nANXA1     -2.42501     -0.05416     -0.46478     -2.18393\nAR         0.39615     -0.43348     -0.10232      0.58299\nBAK1       0.78627      0.39897      0.22598     -1.31202\n\n\nVisualise the overall distribution of expression levels by histogram\n\nhist(mrna, nclass=40, xlim=c(-5,5), col=\"lightblue\")\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nTask 1\n\n\n\nThis is a callout-note, and it can be quite useful for exercises. You can find more about callout here.\nExample: Extend the above analysis to cover all genes."
+  },
+  {
+    "objectID": "syllabus/index.html",
+    "href": "syllabus/index.html",
+    "title": "Syllabus(课程计划)",
+    "section": "",
+    "text": "Course Description\nThis course introduces students to modern causal inference methods for analyzing data in economics and other social sciences. The goal is to help you develop a solid theoretical background in introductory level econometrics, the ability to implement modern econometric methods, and the critical thinking about empirical studies in economics and other social sciences. Specifically, we will learn seven modern econometric research design techniques that aim to estimate causal effects credibly and make predictions scientifically on economic and social relationships:\n\nRandomized Controlled Trial(RCT)\nRegression(OLS)\nInstrumental Variables(IV)\nRegression Discontinuity Designs(RDD)\nPanel Data and Differences-in-Differences(DID)\nIntroduction to Times Series(TS)\nMachine Learning and Forecasting(ML)\n\nAt the end, students will use at least one of them above to finish an empirical research proposal.\n\n\nEvaluation\n\nParticipation（\\(10\\%\\)）\nHomework (\\(10\\%\\times2=20\\%\\))\nFinal exam (\\(40\\%\\))\nGroup project (\\(30\\%\\))\n\n\n\nTextbooks\n\nEconometrics\n\nJames H. Stock and Mark W. Watson, Introduction to Econometrics, 3rd Edition, Addison-Wesley, 2012.\nJeffrey M. Wooldridge, Introductory Econometrics: A Modern Approach, 5th Edition, South-Western College, 2013.\nJoshua Angrist and Jorn-Steffen Pischke, Mastering’ Metrics: The Path from Cause to Effect, Princeton press, 2015.\n\n• Joshua Angrist and Jorn-Steffen Pischke, Mostly Harmless Econometrics: An Empiricist’s Companion, Princeton press, 2008.\n\nGareth James, Daniela Witten, Trevor Hastie and Robert Tibshirani, An Introduction to Statistical Learning: with Applications in R, Springer, 2013.\n\n\n\nComputing Softwares： Stata and R\n\n任意一本关于Stata或R的中文书\n\n\n\nAdditional Readings\n\nSteven D. Levitt and Stephen J. Dubner, Freakonomics: A Rogue Economist Explores the Hidden Side of Everything, 2005. (中译本《魔鬼经济学》 斯蒂夫\\cdot都伯纳著，广东经济出版社，2006年1月。)\nSteven D. Levitt and Stephen J. Dubner, SuperFreakonomics: Global Cooling, Patriotic Prostitutes, and Why Suicide Bombers Should Buy Life Insurance, 2009.（中译本，《超爆魔鬼经济学》，斯蒂夫\\cdot都伯纳著，中信出版社，2010年1月。）\nIan Ayres, Super Crunchers: Why Thinking-By-Numbers is the New Way To Be Smart, 2007. (中译本《超级数字天才》，伊恩，中国青年出版社，2008年1月。)\nRaymond Fisman and Edward Miguel, Economic Gangster：Corruption, Violence and the Poverty of Nations, 2008. (中译本《经济黑帮：腐败、暴力的黑帮经济学》，中信出版社，2010年8月)\nAbhijit V. Banerjee & Esther Duflo, Poor Economics A Radical Rethinking of the Way to Fight Global Poverty, 2011.(中译本:《贫穷的本质：我们为什么摆脱不了贫穷》，中信出版社。）\nAngus Deaton, The Great Escape:Health,Wealth,and the Origins of Inequality,2015.(中译本: 《逃离不平等: 健康、财富及不平等的起源》，中信出版社。）\n涂子沛，《大数据：正在到来的数据革命，以及它如何改变政府、商业与我们的生活》，广西师范大学出版社，2012年7月。\n\n\n\n\nOutline\n(Preliminary, to be adjusted possibly)\n\nIntroduction\n\n\nWhat the course is about? What is the benefit if we learn it? How to learn it?\nProbability and Statistics Review\n\nStock and Watson (2012): Chapter 2-3.\nWooldridge (2013): Appendix A, B & C.\n\n\n\nCausal Inference in Social Science and Randomized Experiment(I)\n\n\nStock and Watson (2012): Chapter 1 & 13\nAngrist and Pischke (2014): Chapter 1\nAngrist and Pischke (2008): Chapter 1-2\nProbability and Statistics Review\n\nStock and Watson (2012): Chapter 2-3.\nWooldridge (2013): Appendix A, B & C.\n\n\n\nCausal Inference in Social Science and Randomized Experiment(II)\n\n\nStock and Watson (2012): Chapter 1 & 13\nAngrist and Pischke (2014): Chapter 1\nAngrist and Pischke (2008): Chapter 1-2\nProbability and Statistics Review\n\nStock and Watson (2012): Chapter 2-3.\nWooldridge (2013): Appendix A, B & C.\n\n\n\nRegression (I): Simple OLS-Estimation\n\n\nStock and Watson (2012): Chapter 4-5, 17\nWooldridge (2013): Chapter 2\nAngrist and Pischke (2014):Chapter 2\nAngrist and Pischke (2008): Chapter 3\n\n\nRegression (II)- Multiple OLS-Hypothesis Test\n\n\nStock and Watson (2012): Chapter 6-7\nWooldridge (2013): Chapter 3,\nAngrist and Pischke (2008): Chapter 3\nAngrist and Pischke (2014): Chapter 2\n\n\nRegression Review (III): Multiple OLS-Estimation and Hypothesis Test\n\n\nStock and Watson (2012): Chapter 6-7\nWooldridge (2013): Chapter 4-5\n\n\nRegression Review (IV): Nonlinear Regression Functions\n\n\nStock and Watson (2012): Chapter 8-9\nWooldridge (2013): Chapter 6-8\n\n\nRegression Review (V): Binary Dependent Variables\n\n\nStock and Watson (2012): Chapter 11\nWooldridge (2013): Chapter 9 & 17\n\n\nInstrumental Variables (I)\n\n\nStock andWatson (2012): Chapter 12\nWooldridge (2013): Chapter 15\nAngrist and Pischke (2014): Chapter 3\nAngrist and Pischke (2008): Chapter 4\n\n\nInstrumental Variables (II)\n\n\nStock and Watson (2012): Chapter 12\nWooldridge (2013): Chapter 15\nAngrist and Pischke (2014): Chapter 3\nAngrist and Pischke (2008): Chapter 4\n\n\nRegression Discontinuity (I)\n\n\nAngrist and Pischke (2008): Chapter 4\nAngrist and Pischke (2014): Chapter 4\nGuido W. Imbens and Thomas Lemieux (2007), “Regression discontinuity designs: A guide to practice”, Journal of Econometrics, 142(2), pp.615-635.\n\n\nRegression Discontinuity (II)\n\n\nAngrist and Pischke (2008): Chapter 4\nAngrist and Pischke (2014): Chapter 4\nGuido W. Imbens and Thomas Lemieux (2007), “Regression discontinuity designs: A guide to practice”, Journal of Econometrics, 142(2), pp.615-635.\n\n\nFixed Effect and Difference in Differences (I)\n\n\nAngrist and Pischke (2014): Chapter 5\nStock and Watson (2012): Chapter 10\nWooldridge (2013): Chapter 13\n\n\nFixed Effect and Difference in Differences (II)\n\n\nAngrist and Pischke (2014): Chapter 5\nStock and Watson (2012): Chapter 10\nWooldridge (2013): Chapter 13\n\n\nIntroduction to Times Series (I)\n\n\nStock and Watson (2012): Chapter 14\nJames et al (2013): Chapter 1\n\n\nIntroduction to Times Series (II)\n\n\nStock and Watson (2012): Chapter 15\nJames et al (2013): Chapter 2\n\n\nFinal Review"
+  },
+  {
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "About",
+    "section": "",
+    "text": "About page\n\n\n\nThis page contains some elaborated background information about your workshop, or the instructors.\n\n\nFor example: A central problem in machine learning is how to make an algorithm perform well not just on the training data, but also on new inputs. Many strategies in machine learning are explicitly designed to reduce this test error, possibly at the expense of increased training error. These strategies are collectively known as regularisation and they are instrumental for good performance of any kind of prediction or classification model, especially in the context of small data (many features, few samples).\nIn the hands-on tutorial we will use R to perform an integrated analysis of multi-omics data with penalised regression.\n\nContact\nInstructor A: contact\nInstructor B: contact\nInstructor C: contact"
+  },
+  {
+    "objectID": "homeworks/index.html",
+    "href": "homeworks/index.html",
+    "title": "Homework",
+    "section": "",
+    "text": "Schedule\n\n\n\n\n\n\nSchedule\n\n\n\nThe 1st homework is due on April 14 2:00 am.\n\n\n\n\n\nNo.\nTopic\nDue to\n\n\n\n\n1\nHomework\nApril 14 2:00 am\n\n\n2\n[Homework 2]"
+  }
+]

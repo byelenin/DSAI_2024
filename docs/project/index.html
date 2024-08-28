@@ -1,0 +1,888 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
+
+<meta charset="utf-8">
+<meta name="generator" content="quarto-1.4.553">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+
+<title>Intro to ’Metrics at NJU - Research Proposal</title>
+<style>
+code{white-space: pre-wrap;}
+span.smallcaps{font-variant: small-caps;}
+div.columns{display: flex; gap: min(4vw, 1.5em);}
+div.column{flex: auto; overflow-x: auto;}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+  width: 0.8em;
+  margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
+  vertical-align: middle;
+}
+</style>
+
+
+<script src="../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../site_libs/quarto-nav/headroom.min.js"></script>
+<script src="../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../">
+<link href="..//Pics/logo.png" rel="icon" type="image/png">
+<script src="../site_libs/quarto-html/quarto.js"></script>
+<script src="../site_libs/quarto-html/popper.min.js"></script>
+<script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
+<script id="quarto-search-options" type="application/json">{
+  "location": "navbar",
+  "copy-button": false,
+  "collapse-after": 3,
+  "panel-placement": "end",
+  "type": "overlay",
+  "limit": 50,
+  "keyboard-shortcut": [
+    "f",
+    "/",
+    "s"
+  ],
+  "show-item-context": false,
+  "language": {
+    "search-no-results-text": "No results",
+    "search-matching-documents-text": "matching documents",
+    "search-copy-link-title": "Copy link to search",
+    "search-hide-matches-text": "Hide additional matches",
+    "search-more-match-text": "more match in this document",
+    "search-more-matches-text": "more matches in this document",
+    "search-clear-button-title": "Clear",
+    "search-text-placeholder": "",
+    "search-detached-cancel-button-title": "Cancel",
+    "search-submit-button-title": "Submit",
+    "search-label": "Search"
+  }
+}</script>
+
+  <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
+
+<script type="text/javascript">
+const typesetMath = (el) => {
+  if (window.MathJax) {
+    // MathJax Typeset
+    window.MathJax.typeset([el]);
+  } else if (window.katex) {
+    // KaTeX Render
+    var mathElements = el.getElementsByClassName("math");
+    var macros = [];
+    for (var i = 0; i < mathElements.length; i++) {
+      var texText = mathElements[i].firstChild;
+      if (mathElements[i].tagName == "SPAN") {
+        window.katex.render(texText.data, mathElements[i], {
+          displayMode: mathElements[i].classList.contains('display'),
+          throwOnError: false,
+          macros: macros,
+          fleqn: false
+        });
+      }
+    }
+  }
+}
+window.Quarto = {
+  typesetMath
+};
+</script>
+
+</head>
+
+<body class="nav-sidebar docked nav-fixed">
+
+<div id="quarto-search-results"></div>
+  <header id="quarto-header" class="headroom fixed-top">
+    <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
+      <div class="navbar-container container-fluid">
+      <div class="navbar-brand-container mx-auto">
+    <a class="navbar-brand" href="../index.html">
+    <span class="navbar-title">Intro to ’Metrics at NJU</span>
+    </a>
+  </div>
+            <div id="quarto-search" class="" title="Search"></div>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+  <span class="navbar-toggler-icon"></span>
+</button>
+          <div class="collapse navbar-collapse" id="navbarCollapse">
+            <ul class="navbar-nav navbar-nav-scroll me-auto">
+  <li class="nav-item">
+    <a class="nav-link" href="../syllabus/index.html"> 
+<span class="menu-text">Syllabus</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../schedule/index.html"> 
+<span class="menu-text">Schedule</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../lab/index.html"> 
+<span class="menu-text">Lab Sessions</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link active" href="../project/index.html" aria-current="page"> 
+<span class="menu-text">Project</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../homeworks/index.html"> 
+<span class="menu-text">Homework</span></a>
+  </li>  
+</ul>
+            <ul class="navbar-nav navbar-nav-scroll ms-auto">
+  <li class="nav-item compact">
+    <a class="nav-link" href="https://github.com"> <i class="bi bi-github" role="img">
+</i> 
+<span class="menu-text"></span></a>
+  </li>  
+  <li class="nav-item compact">
+    <a class="nav-link" href="mailto:qu@nju.edu.cn"> <i class="bi bi-envelope" role="img" aria-label="email">
+</i> 
+<span class="menu-text"></span></a>
+  </li>  
+</ul>
+          </div> <!-- /navcollapse -->
+          <div class="quarto-navbar-tools">
+</div>
+      </div> <!-- /container-fluid -->
+    </nav>
+  <nav class="quarto-secondary-nav">
+    <div class="container-fluid d-flex">
+      <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+        <i class="bi bi-layout-text-sidebar-reverse"></i>
+      </button>
+        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item">Research Proposal</li></ol></nav>
+        <a class="flex-grow-1" role="button" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
+        </a>
+      <button type="button" class="btn quarto-search-button" aria-label="" onclick="window.quartoOpenSearch();">
+        <i class="bi bi-search"></i>
+      </button>
+    </div>
+  </nav>
+</header>
+<!-- content -->
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
+<!-- sidebar -->
+  <nav id="quarto-sidebar" class="sidebar collapse collapse-horizontal quarto-sidebar-collapse-item sidebar-navigation docked overflow-auto">
+        <div class="mt-2 flex-shrink-0 align-items-center">
+        <div class="sidebar-search">
+        <div id="quarto-search" class="" title="Search"></div>
+        </div>
+        </div>
+    <div class="sidebar-menu-container"> 
+    <ul class="list-unstyled mt-1">
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="https://byelenin.github.io/" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Instructor</span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../About/TAs.qmd" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">TAs</span></a>
+  </div>
+</li>
+    </ul>
+    </div>
+</nav>
+<div id="quarto-sidebar-glass" class="quarto-sidebar-collapse-item" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item"></div>
+<!-- margin-sidebar -->
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">On this page</h2>
+   
+  <ul>
+  <li><a href="#简介" id="toc-简介" class="nav-link active" data-scroll-target="#简介">简介</a></li>
+  <li><a href="#研究计划上交日期deadline-for-research-proposal" id="toc-研究计划上交日期deadline-for-research-proposal" class="nav-link" data-scroll-target="#研究计划上交日期deadline-for-research-proposal">研究计划上交日期(Deadline for Research Proposal)</a></li>
+  <li><a href="#研究计划基本要求" id="toc-研究计划基本要求" class="nav-link" data-scroll-target="#研究计划基本要求">研究计划基本要求：</a></li>
+  <li><a href="#附件afor-a-research-proposal研究计划内容指南" id="toc-附件afor-a-research-proposal研究计划内容指南" class="nav-link" data-scroll-target="#附件afor-a-research-proposal研究计划内容指南">附件A：For A Research Proposal(<em>研究计划内容指南</em>）</a></li>
+  <li><a href="#potential-topics" id="toc-potential-topics" class="nav-link" data-scroll-target="#potential-topics">Potential Topics</a></li>
+  <li><a href="#附件b重要微观数据库简要汇总" id="toc-附件b重要微观数据库简要汇总" class="nav-link" data-scroll-target="#附件b重要微观数据库简要汇总">附件B：重要微观数据库简要汇总</a>
+  <ul class="collapse">
+  <li><a href="#住户调查" id="toc-住户调查" class="nav-link" data-scroll-target="#住户调查">1. 住户调查</a></li>
+  <li><a href="#企业调查" id="toc-企业调查" class="nav-link" data-scroll-target="#企业调查">2. 企业调查</a></li>
+  <li><a href="#各级各类统计年鉴" id="toc-各级各类统计年鉴" class="nav-link" data-scroll-target="#各级各类统计年鉴">3. 各级各类统计年鉴</a></li>
+  <li><a href="#其他网络大数据" id="toc-其他网络大数据" class="nav-link" data-scroll-target="#其他网络大数据">4. 其他网络大数据</a></li>
+  </ul></li>
+  </ul>
+</nav>
+    </div>
+<!-- main -->
+<main class="content" id="quarto-document-content">
+
+<header id="title-block-header" class="quarto-title-block default">
+<div class="quarto-title">
+<h1 class="title">Research Proposal</h1>
+<p class="subtitle lead">Intro ’Metrics,Spring 2024</p>
+</div>
+
+
+
+<div class="quarto-title-meta">
+
+    
+  
+    
+  </div>
+  
+
+
+</header>
+
+
+<section id="简介" class="level3">
+<h3 class="anchored" data-anchor-id="简介">简介</h3>
+<ul>
+<li><p>本学期计量课期末考试的重要部分。主要考察同学们运用计量方法进行研究设计以及实际利用计量软件处理现实数据的动手能力等方面。</p></li>
+<li><p>占总成绩的<span class="math inline">\(30\%\)</span>。(其他各部分占比：出勤率<span class="math inline">\(10\%\)</span>，作业<span class="math inline">\(20\%\)</span>，期末考试<span class="math inline">\(40\%\)</span>)</p></li>
+<li><p>由于本学期选课人数较多，因此我们将以<strong>研究小组</strong>形式提交研究计划。每个小组<em>2</em>人，每组提交研究项目<em>1</em>个。（如果实在找不到合作伙伴，可以向助教或老师求助）</p></li>
+</ul>
+</section>
+<section id="研究计划上交日期deadline-for-research-proposal" class="level3">
+<h3 class="anchored" data-anchor-id="研究计划上交日期deadline-for-research-proposal">研究计划上交日期(Deadline for Research Proposal)</h3>
+<table class="table">
+<colgroup>
+<col style="width: 45%">
+<col style="width: 54%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>时间</th>
+<th>内容</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td><span class="math inline">\(\color{red}{July,7th;24:00}\)</span></td>
+<td>上传<strong><span class="math inline">\(\textcolor{blue}{研究计划}\)</span></strong>到教学立方</td>
+</tr>
+</tbody>
+</table>
+</section>
+<section id="研究计划基本要求" class="level2">
+<h2 class="anchored" data-anchor-id="研究计划基本要求">研究计划基本要求：</h2>
+<ul>
+<li><p>推荐使用微观数据集(数据结构为Cross-sectional 或 Panel)</p></li>
+<li><p>推荐使用本文后面介绍的微观数据集或者从网络上收集的相关数据，尤其是鼓励大家使用作业中清理好的数据集。</p></li>
+<li><p>语言：中英文书写均可，提交英文者，卷面会根据情况适当多给5-10分。</p></li>
+<li><p>篇幅与字数：2000字数以上+图表若干，至少3页以上（A4页）。</p></li>
+</ul>
+</section>
+<section id="附件afor-a-research-proposal研究计划内容指南" class="level2">
+<h2 class="anchored" data-anchor-id="附件afor-a-research-proposal研究计划内容指南">附件A：For A Research Proposal(<em>研究计划内容指南</em>）</h2>
+<p>一篇好的经验研究项目计划书的大致内容应该有如下部分：</p>
+<ol type="1">
+<li>研究动机</li>
+</ol>
+<ul>
+<li>拟发现或提出的提出的问题。</li>
+<li>从研究问题的理论、经验和政策三方面来说为什么本研究有意义？</li>
+</ul>
+<ol start="2" type="1">
+<li>文献回顾</li>
+</ol>
+<ul>
+<li>对之前的文献进行简要的综述，主要结论是什么？</li>
+<li>这些研究可能存在哪些缺陷？</li>
+<li>本文的研究以哪些重要文献作为研究基础，并有可能在哪些方面对上述文献进行扩展或改进？</li>
+</ul>
+<ol start="3" type="1">
+<li>研究方法和拟解决的关键性问题</li>
+</ol>
+<ul>
+<li>你的项目中最关心的变量是什么？自变量和因变量是什么？ 在项目要克服的主要的识别的困难是什么？（即是否样本不随机，存在自选择或者互为因果等关系？）</li>
+<li>所以，为了克服上述困难，你打算所采用的主要经验研究方法是什么？（比如我们上课介绍的多元回归、分解、工具变量、双重差分法和断点回归等等）。为什么这种方法能够解决你研究中的识别困难？</li>
+</ul>
+<ol start="4" type="1">
+<li><p>数据来源和数据类型 数据从何而来，以什么为单位？为什么你所使用的数据适合做本项目的研究，该数据有哪些优势和劣势？</p>
+<p>1）从数据类型上看，属于我们上课所说的哪种类型？</p>
+<ul>
+<li>cross-sectional</li>
+<li>panel</li>
+<li>time series</li>
+</ul>
+<p>2）数据是否要进行一些处理，比如去掉一些缺失值和异常值等或者去掉一些不符合条件的样本。比如研究工资问题，通常将不在工作状态的样本去掉。</p>
+<p>3）研究问题中自变量和因变量分别对应数据库中哪个或哪些变量？</p></li>
+<li><p>数据的基本描述</p>
+<ul>
+<li>数据信息的基本描述:我们最关心的因变量、自变量和其他控制变量的基本统计性描述信息（均值、方差、最大值最小值等等）。</li>
+<li>如果有可能的话可以做比较两组均值的差异分析（类似我们上课做的），再用散点图看一看因变量和自变量之间的关系。</li>
+</ul></li>
+<li><p>预期的结果</p>
+<ul>
+<li>本研究项目期望得到的结果是什么？</li>
+<li>结果对研究和政策有哪些直接的贡献？</li>
+<li>研究结果的潜在的局限性有哪些？如何能够克服？</li>
+</ul></li>
+</ol>
+</section>
+<section id="potential-topics" class="level2">
+<h2 class="anchored" data-anchor-id="potential-topics">Potential Topics</h2>
+<ul>
+<li><p><em>人口与劳动经济学</em></p>
+<ul>
+<li><p>健康和营养方面：比如肥胖、吸烟和喝酒对工资、家庭消费和福利的影响</p></li>
+<li><p>教育和培训：在职培训对城市居民和农民工就业及工资的影响。</p></li>
+<li><p>失业就业研究：“四万亿”投资与就业、“一带一路”策略与就业、工作流动性研究</p></li>
+<li><p>劳动力市场市场化程度研究</p></li>
+<li><p>农民工工资上涨的原因？劳动力短缺还是制度原因（最低工资制度还是劳动合同法）</p></li>
+<li><p>人口问题：计划生育、二胎的影响</p></li>
+<li><p>新《劳动合同法》、机器人更新换代、产业升级、新冠肺炎疫情的相关影响？</p></li>
+</ul></li>
+<li><p><em>教育经济学</em></p>
+<ul>
+<li><p>城乡中学教育质量的差异？</p></li>
+<li><p>“补课”是否有用？</p></li>
+<li><p>“快慢班”对学生成绩的影响？</p></li>
+<li><p>家长投入（时间、金钱等方面）对学生学习成绩的影响？</p></li>
+<li><p>“重点学校”对学生成绩的影响？</p></li>
+<li><p>“教培”行业被整顿对学生成绩的影响</p></li>
+</ul></li>
+<li><p><em>发展经济学</em></p></li>
+</ul>
+<ol type="1">
+<li><p>收入分配：工资不平等和收入不平等和代际传递</p></li>
+<li><p>城乡移民迁移：</p></li>
+</ol>
+<!-- -->
+<ol type="a">
+<li>迁移决策的决定：教育、土地、家庭结构及社会网络如何决定移民的决策？</li>
+<li>对迁移地的影响：比如农民工迁移对当地就业和工资的影响</li>
+<li>对迁出地的影响：比如农民工迁移对农村收入分配和贫困的影响</li>
+<li>其他衍生问题：子女教育、婚姻质量、青年农民工等等</li>
+</ol>
+<!-- -->
+<ol start="3" type="1">
+<li>腐败问题：</li>
+</ol>
+<!-- -->
+<ol type="a">
+<li>反腐运动对家庭消费、奢侈品消费、餐饮消费的影响？</li>
+<li>被双规的官员的特征(是否有某些决定性的因素决定了容易腐败？比如是否是副职，是否在某些特定部门（财税、建设、交通、还是。。。）是否有年龄效应（59岁），（找到一个影响最大的来研究）腐败的程度是否有差别？</li>
+</ol>
+<ul>
+<li><p><em>环境与健康</em></p>
+<ul>
+<li>空气、水污染的原因：与交通、工业之间的关系</li>
+<li>空气、水污染的治理与经济发展</li>
+<li>空气、水污染对居民健康、劳动生产率、消费、幸福感等方面的影响</li>
+</ul></li>
+<li><p><em>其实还有很多很多的问题都可以做，上面只是我暂时想到的一些题目，特点是一般都有相应的数据支持，有一定的文献积累。也特别欢迎你们想一些自己感兴趣的题目，我相信：“兴趣永远是最好的老师”。希望大家都能认真准备，最后能给我一些惊喜！</em></p></li>
+</ul>
+</section>
+<section id="附件b重要微观数据库简要汇总" class="level2">
+<h2 class="anchored" data-anchor-id="附件b重要微观数据库简要汇总">附件B：重要微观数据库简要汇总</h2>
+<section id="住户调查" class="level3">
+<h3 class="anchored" data-anchor-id="住户调查">1. 住户调查</h3>
+<ul>
+<li><p>中国家庭收入调查:<a href="http://www.ciidbnu.org/chip/index.asp?lang=CN">China Household Income Project Survey(CHIPs)</a></p>
+<ul>
+<li>负责机构：北京师范大学中国收入分配研究院</li>
+<li>数据结构：多年截面数据</li>
+<li>年份：1988、1995、1999、2002、2007、2008、2013</li>
+<li>覆盖范围：城市、农村和城乡移民家庭（2002年开始）</li>
+<li>主要变量：1）个人：基本状况、工作信息和收入等；2）家庭：收入、消费、资产和居住情况等。3）社区（村庄）层面信息。</li>
+</ul></li>
+<li><p>中国家庭追踪调查: <a href="http://www.isss.edu.cn/cfps/en">China Family Panel Survey(CFPS)</a></p>
+<ul>
+<li>负责机构：北京大学中国社科调查中心</li>
+<li>数据结构：多年面板数据</li>
+<li>年份：2010、2012、2014和2016</li>
+<li>覆盖范围：城市和农村</li>
+<li>主要变量：1）个人：基本状况、工作、收入、健康等信息；2）家庭：收入、消费、资产和居住情况等；3）社区信息</li>
+</ul></li>
+<li><p>中国健康养老追踪调查:<a href="http://charls.pku.edu.cn/zh-CN/page/data/2015-charls-wave4">China Health and Retirement Longitudinal Study</a></p>
+<ul>
+<li>负责机构：北京大学中国经济研究中心</li>
+<li>数据结构：多年面板数据</li>
+<li>年份：2011、2013、2014和2015</li>
+<li>覆盖范围：城市和农村有<strong>45岁以上老人</strong>的家庭</li>
+<li>主要变量：非常详细的个人和家庭的信息包括很详细的个人健康信息</li>
+</ul></li>
+<li><p>中国-印尼城乡移民调查：<a href="https://www.rse.anu.edu.au/research/centres-projects/rural-urban-migration-in-china-and-indonesia/">Rural to Urban Migration in China(RUMiC)</a></p>
+<ul>
+<li>负责机构：澳大利亚国立大学、IZA和北京师范大学（现已经更换为暨南大学）</li>
+<li>数据结构：多年面板数据</li>
+<li>年份：2008-2017（目前可获取的只有2008-2009）</li>
+<li>覆盖范围：城市、农村和城乡移民</li>
+<li>主要变量：1）个人：基本状况、工作信息和收入等；2）家庭：收入、消费、资产和居住情况等</li>
+</ul></li>
+<li><p>中国社会综合调查： <a href="http://www.chinagss.org">China General Social Survey(CGSS)</a></p>
+<ul>
+<li>负责机构：中国人民大学中国调查与数据中心</li>
+<li>数据结构：多年截面数据</li>
+<li>年份：2003、2005、2006、2008、2010、2011、2012、2013</li>
+<li>覆盖范围：城市和农村</li>
+<li>主要变量：1）个人：基本状况、工作和收入等信息之外，主要收集了价值观（包涵对很多社会问题的态度和观点等）2）家庭结构和状况等信息，3）社区信息</li>
+</ul></li>
+<li><p>中国劳动力动态调查(CLDS)</p></li>
+<li><p>中国健康与营养调查(CHNS)</p></li>
+<li><p>中国家庭金融调查(CHFS)</p></li>
+<li><p>中国基础教育追踪调查(CEPS)</p></li>
+<li><p>甘肃基础教育调查</p></li>
+<li><p>中国城镇住户调查（UHS）</p></li>
+<li><p>农业部固定观察点农户调查</p></li>
+<li><p>流动人口动态监测数据</p></li>
+<li><p>贫困人口动态监测数据</p></li>
+</ul>
+</section>
+<section id="企业调查" class="level3">
+<h3 class="anchored" data-anchor-id="企业调查">2. 企业调查</h3>
+<ul>
+<li><p>中国工业企业数据库</p></li>
+<li><p>中国海关进出口数据</p></li>
+<li><p>上市公司数据（万德/国泰君安数据库）</p></li>
+</ul>
+</section>
+<section id="各级各类统计年鉴" class="level3">
+<h3 class="anchored" data-anchor-id="各级各类统计年鉴">3. 各级各类统计年鉴</h3>
+<ul>
+<li><p>县级统计年鉴</p></li>
+<li><p>城市统计年鉴</p></li>
+<li><p>各省统计年鉴</p></li>
+</ul>
+</section>
+<section id="其他网络大数据" class="level3">
+<h3 class="anchored" data-anchor-id="其他网络大数据">4. 其他网络大数据</h3>
+<ul>
+<li><p>环境数据（环保部：空气、水和土壤）</p></li>
+<li><p>各级各类官员数据（省、市和县）</p></li>
+<li><p>豆瓣、猫眼和易恩网电影数据</p></li>
+<li><p>体育网站的体育赛事数据</p></li>
+<li><p>房地产数据（链家）</p></li>
+<li><p>国土利用数据（国土部遥感数据）</p></li>
+<li><p>灯光数据（NASA)</p></li>
+<li><p>京东、天猫、亚马逊和淘宝</p></li>
+<li><p>携程等机票、宾馆价格数据</p></li>
+</ul>
+
+
+</section>
+</section>
+
+</main> <!-- /main -->
+<script id="quarto-html-after-body" type="application/javascript">
+window.document.addEventListener("DOMContentLoaded", function (event) {
+  const toggleBodyColorMode = (bsSheetEl) => {
+    const mode = bsSheetEl.getAttribute("data-mode");
+    const bodyEl = window.document.querySelector("body");
+    if (mode === "dark") {
+      bodyEl.classList.add("quarto-dark");
+      bodyEl.classList.remove("quarto-light");
+    } else {
+      bodyEl.classList.add("quarto-light");
+      bodyEl.classList.remove("quarto-dark");
+    }
+  }
+  const toggleBodyColorPrimary = () => {
+    const bsSheetEl = window.document.querySelector("link#quarto-bootstrap");
+    if (bsSheetEl) {
+      toggleBodyColorMode(bsSheetEl);
+    }
+  }
+  toggleBodyColorPrimary();  
+  const icon = "";
+  const anchorJS = new window.AnchorJS();
+  anchorJS.options = {
+    placement: 'right',
+    icon: icon
+  };
+  anchorJS.add('.anchored');
+  const isCodeAnnotation = (el) => {
+    for (const clz of el.classList) {
+      if (clz.startsWith('code-annotation-')) {                     
+        return true;
+      }
+    }
+    return false;
+  }
+  const clipboard = new window.ClipboardJS('.code-copy-button', {
+    text: function(trigger) {
+      const codeEl = trigger.previousElementSibling.cloneNode(true);
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
+        }
+      }
+      return codeEl.innerText;
+    }
+  });
+  clipboard.on('success', function(e) {
+    // button target
+    const button = e.trigger;
+    // don't keep focus
+    button.blur();
+    // flash "checked"
+    button.classList.add('code-copy-button-checked');
+    var currentTitle = button.getAttribute("title");
+    button.setAttribute("title", "Copied!");
+    let tooltip;
+    if (window.bootstrap) {
+      button.setAttribute("data-bs-toggle", "tooltip");
+      button.setAttribute("data-bs-placement", "left");
+      button.setAttribute("data-bs-title", "Copied!");
+      tooltip = new bootstrap.Tooltip(button, 
+        { trigger: "manual", 
+          customClass: "code-copy-button-tooltip",
+          offset: [0, -8]});
+      tooltip.show();    
+    }
+    setTimeout(function() {
+      if (tooltip) {
+        tooltip.hide();
+        button.removeAttribute("data-bs-title");
+        button.removeAttribute("data-bs-toggle");
+        button.removeAttribute("data-bs-placement");
+      }
+      button.setAttribute("title", currentTitle);
+      button.classList.remove('code-copy-button-checked');
+    }, 1000);
+    // clear code selection
+    e.clearSelection();
+  });
+    var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
+    var mailtoRegex = new RegExp(/^mailto:/);
+      var filterRegex = new RegExp("https:\/\/byelenin\.github\.io\/Metrics_2024\/");
+    var isInternal = (href) => {
+        return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
+    }
+    // Inspect non-navigation links and adorn them if external
+ 	var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool)');
+    for (var i=0; i<links.length; i++) {
+      const link = links[i];
+      if (!isInternal(link.href)) {
+        // undo the damage that might have been done by quarto-nav.js in the case of
+        // links that we want to consider external
+        if (link.dataset.originalHref !== undefined) {
+          link.href = link.dataset.originalHref;
+        }
+      }
+    }
+  function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
+    const config = {
+      allowHTML: true,
+      maxWidth: 500,
+      delay: 100,
+      arrow: false,
+      appendTo: function(el) {
+          return el.parentElement;
+      },
+      interactive: true,
+      interactiveBorder: 10,
+      theme: 'quarto',
+      placement: 'bottom-start',
+    };
+    if (contentFn) {
+      config.content = contentFn;
+    }
+    if (onTriggerFn) {
+      config.onTrigger = onTriggerFn;
+    }
+    if (onUntriggerFn) {
+      config.onUntrigger = onUntriggerFn;
+    }
+    window.tippy(el, config); 
+  }
+  const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+  for (var i=0; i<noterefs.length; i++) {
+    const ref = noterefs[i];
+    tippyHover(ref, function() {
+      // use id or data attribute instead here
+      let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+      try { href = new URL(href).hash; } catch {}
+      const id = href.replace(/^#\/?/, "");
+      const note = window.document.getElementById(id);
+      if (note) {
+        return note.innerHTML;
+      } else {
+        return "";
+      }
+    });
+  }
+  const xrefs = window.document.querySelectorAll('a.quarto-xref');
+  const processXRef = (id, note) => {
+    // Strip column container classes
+    const stripColumnClz = (el) => {
+      el.classList.remove("page-full", "page-columns");
+      if (el.children) {
+        for (const child of el.children) {
+          stripColumnClz(child);
+        }
+      }
+    }
+    stripColumnClz(note)
+    if (id === null || id.startsWith('sec-')) {
+      // Special case sections, only their first couple elements
+      const container = document.createElement("div");
+      if (note.children && note.children.length > 2) {
+        container.appendChild(note.children[0].cloneNode(true));
+        for (let i = 1; i < note.children.length; i++) {
+          const child = note.children[i];
+          if (child.tagName === "P" && child.innerText === "") {
+            continue;
+          } else {
+            container.appendChild(child.cloneNode(true));
+            break;
+          }
+        }
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(container);
+        }
+        return container.innerHTML
+      } else {
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(note);
+        }
+        return note.innerHTML;
+      }
+    } else {
+      // Remove any anchor links if they are present
+      const anchorLink = note.querySelector('a.anchorjs-link');
+      if (anchorLink) {
+        anchorLink.remove();
+      }
+      if (window.Quarto?.typesetMath) {
+        window.Quarto.typesetMath(note);
+      }
+      // TODO in 1.5, we should make sure this works without a callout special case
+      if (note.classList.contains("callout")) {
+        return note.outerHTML;
+      } else {
+        return note.innerHTML;
+      }
+    }
+  }
+  for (var i=0; i<xrefs.length; i++) {
+    const xref = xrefs[i];
+    tippyHover(xref, undefined, function(instance) {
+      instance.disable();
+      let url = xref.getAttribute('href');
+      let hash = undefined; 
+      if (url.startsWith('#')) {
+        hash = url;
+      } else {
+        try { hash = new URL(url).hash; } catch {}
+      }
+      if (hash) {
+        const id = hash.replace(/^#\/?/, "");
+        const note = window.document.getElementById(id);
+        if (note !== null) {
+          try {
+            const html = processXRef(id, note.cloneNode(true));
+            instance.setContent(html);
+          } finally {
+            instance.enable();
+            instance.show();
+          }
+        } else {
+          // See if we can fetch this
+          fetch(url.split('#')[0])
+          .then(res => res.text())
+          .then(html => {
+            const parser = new DOMParser();
+            const htmlDoc = parser.parseFromString(html, "text/html");
+            const note = htmlDoc.getElementById(id);
+            if (note !== null) {
+              const html = processXRef(id, note);
+              instance.setContent(html);
+            } 
+          }).finally(() => {
+            instance.enable();
+            instance.show();
+          });
+        }
+      } else {
+        // See if we can fetch a full url (with no hash to target)
+        // This is a special case and we should probably do some content thinning / targeting
+        fetch(url)
+        .then(res => res.text())
+        .then(html => {
+          const parser = new DOMParser();
+          const htmlDoc = parser.parseFromString(html, "text/html");
+          const note = htmlDoc.querySelector('main.content');
+          if (note !== null) {
+            // This should only happen for chapter cross references
+            // (since there is no id in the URL)
+            // remove the first header
+            if (note.children.length > 0 && note.children[0].tagName === "HEADER") {
+              note.children[0].remove();
+            }
+            const html = processXRef(null, note);
+            instance.setContent(html);
+          } 
+        }).finally(() => {
+          instance.enable();
+          instance.show();
+        });
+      }
+    }, function(instance) {
+    });
+  }
+      let selectedAnnoteEl;
+      const selectorForAnnotation = ( cell, annotation) => {
+        let cellAttr = 'data-code-cell="' + cell + '"';
+        let lineAttr = 'data-code-annotation="' +  annotation + '"';
+        const selector = 'span[' + cellAttr + '][' + lineAttr + ']';
+        return selector;
+      }
+      const selectCodeLines = (annoteEl) => {
+        const doc = window.document;
+        const targetCell = annoteEl.getAttribute("data-target-cell");
+        const targetAnnotation = annoteEl.getAttribute("data-target-annotation");
+        const annoteSpan = window.document.querySelector(selectorForAnnotation(targetCell, targetAnnotation));
+        const lines = annoteSpan.getAttribute("data-code-lines").split(",");
+        const lineIds = lines.map((line) => {
+          return targetCell + "-" + line;
+        })
+        let top = null;
+        let height = null;
+        let parent = null;
+        if (lineIds.length > 0) {
+            //compute the position of the single el (top and bottom and make a div)
+            const el = window.document.getElementById(lineIds[0]);
+            top = el.offsetTop;
+            height = el.offsetHeight;
+            parent = el.parentElement.parentElement;
+          if (lineIds.length > 1) {
+            const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
+            const bottom = lastEl.offsetTop + lastEl.offsetHeight;
+            height = bottom - top;
+          }
+          if (top !== null && height !== null && parent !== null) {
+            // cook up a div (if necessary) and position it 
+            let div = window.document.getElementById("code-annotation-line-highlight");
+            if (div === null) {
+              div = window.document.createElement("div");
+              div.setAttribute("id", "code-annotation-line-highlight");
+              div.style.position = 'absolute';
+              parent.appendChild(div);
+            }
+            div.style.top = top - 2 + "px";
+            div.style.height = height + 4 + "px";
+            div.style.left = 0;
+            let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
+            if (gutterDiv === null) {
+              gutterDiv = window.document.createElement("div");
+              gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
+              gutterDiv.style.position = 'absolute';
+              const codeCell = window.document.getElementById(targetCell);
+              const gutter = codeCell.querySelector('.code-annotation-gutter');
+              gutter.appendChild(gutterDiv);
+            }
+            gutterDiv.style.top = top - 2 + "px";
+            gutterDiv.style.height = height + 4 + "px";
+          }
+          selectedAnnoteEl = annoteEl;
+        }
+      };
+      const unselectCodeLines = () => {
+        const elementsIds = ["code-annotation-line-highlight", "code-annotation-line-highlight-gutter"];
+        elementsIds.forEach((elId) => {
+          const div = window.document.getElementById(elId);
+          if (div) {
+            div.remove();
+          }
+        });
+        selectedAnnoteEl = undefined;
+      };
+        // Handle positioning of the toggle
+    window.addEventListener(
+      "resize",
+      throttle(() => {
+        elRect = undefined;
+        if (selectedAnnoteEl) {
+          selectCodeLines(selectedAnnoteEl);
+        }
+      }, 10)
+    );
+    function throttle(fn, ms) {
+    let throttle = false;
+    let timer;
+      return (...args) => {
+        if(!throttle) { // first call gets through
+            fn.apply(this, args);
+            throttle = true;
+        } else { // all the others get throttled
+            if(timer) clearTimeout(timer); // cancel #2
+            timer = setTimeout(() => {
+              fn.apply(this, args);
+              timer = throttle = false;
+            }, ms);
+        }
+      };
+    }
+      // Attach click handler to the DT
+      const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
+      for (const annoteDlNode of annoteDls) {
+        annoteDlNode.addEventListener('click', (event) => {
+          const clickedEl = event.target;
+          if (clickedEl !== selectedAnnoteEl) {
+            unselectCodeLines();
+            const activeEl = window.document.querySelector('dt[data-target-cell].code-annotation-active');
+            if (activeEl) {
+              activeEl.classList.remove('code-annotation-active');
+            }
+            selectCodeLines(clickedEl);
+            clickedEl.classList.add('code-annotation-active');
+          } else {
+            // Unselect the line
+            unselectCodeLines();
+            clickedEl.classList.remove('code-annotation-active');
+          }
+        });
+      }
+  const findCites = (el) => {
+    const parentEl = el.parentElement;
+    if (parentEl) {
+      const cites = parentEl.dataset.cites;
+      if (cites) {
+        return {
+          el,
+          cites: cites.split(' ')
+        };
+      } else {
+        return findCites(el.parentElement)
+      }
+    } else {
+      return undefined;
+    }
+  };
+  var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+  for (var i=0; i<bibliorefs.length; i++) {
+    const ref = bibliorefs[i];
+    const citeInfo = findCites(ref);
+    if (citeInfo) {
+      tippyHover(citeInfo.el, function() {
+        var popup = window.document.createElement('div');
+        citeInfo.cites.forEach(function(cite) {
+          var citeDiv = window.document.createElement('div');
+          citeDiv.classList.add('hanging-indent');
+          citeDiv.classList.add('csl-entry');
+          var biblioDiv = window.document.getElementById('ref-' + cite);
+          if (biblioDiv) {
+            citeDiv.innerHTML = biblioDiv.innerHTML;
+          }
+          popup.appendChild(citeDiv);
+        });
+        return popup.innerHTML;
+      });
+    }
+  }
+});
+</script>
+</div> <!-- /content -->
+
+
+
+
+</body></html>

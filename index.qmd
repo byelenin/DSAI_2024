@@ -1,0 +1,55 @@
+---
+title: "Introduction to Econometrics"
+subtitle: "Spring 2024<br>Business School<br>Nanjing University"
+sidebar: false
+toc: false
+page-layout: full
+---
+
+------------------------------------------------------------------------
+
+## News
+
+::: callout-important
+Hello everyone, *time certainly does fly*. Tomorrow's lecture will be our last. As usual, the lecture will be divided into two parts. In the first two hours, I'll conclude our discussion on the DID method. During the final hour, I'll provide a **brief review** of the semester's content and hold a **Q & A** session about the final exam. Looking forward to seeing you all tomorrow~~
+:::
+
+------------------------------------------------------------------------
+
+## Course Description
+
+Welcome to the course website for the 2024 edition of Introduction to Econometrics, also known as "Intro'Metrics"(Jiliang). This course is delivered by [Prof. Zhaopeng Qu](https://byelenin.github.io/zh/index.html) and his teaching assistants at the Business School, Nanjing University.
+
+It introduces students to modern econometrics, including *causal inference*, *time series*, and *machine learning* techniques, and their applications in economics and other social sciences. The course focuses more on intuition and practical examples, while keeping the mathematical content to a minimum. Notably, *matrix notation is not used*.
+
+The goal is to help students develop a solid theoretical background in introductory level econometrics, an ability to implement modern econometric methods, and a critical thinking about empirical studies in economics and other social sciences.
+
+Specifically, we will learn six common econometric research design techniques that aim to credibly estimate causal effects and reliably make prediction on economic and social relationships:
+
+-   *Randomized Controlled Trial(RCT)*
+
+-   *Regression(OLS)*
+
+-   *Instrumental Variables(IV)*
+
+-   *Regression Discontinuity Designs(RDD)*
+
+-   *Panel Data and Differences-in-Differences(DID)*
+
+-   *Times Series and Machine Learning(TS and ML)*
+
+At the end, students will use at least one of them above to finish an empirical research proposal.
+
+::: callout-important
+**We'll be using “教学立方” for attendance tracking in class. Please join the class "计量经济学" in advance with the invite code** H5K8XZFV. A user's guide for “教学立方” is [here](https://jw.nju.edu.cn/_upload/article/files/85/e3/7182ffda42e3bdd6ec9057b3317d/04c25f3e-cf2f-4c3e-9335-62802290fa3a.pdf).
+:::
+
+------------------------------------------------------------------------
+
+```{r, out.width = "1200px", echo=FALSE, fig.align='center'}
+knitr::include_graphics("Pics/teaching.jpeg")
+```
+
+#### Acknowledge
+
+The development of this course has greatly benefited from the educational materials generously shared by various professors including [Scott Cunningham](https://www.scunning.com/),[Ed Rubin](https://edrub.in) and [Andrew Heiss](https://www.andrewheiss.com).Their slides and webpages have been invaluable in enriching the content and facilitating my deeper understanding of Econometrics.Their insights, particularly those from the textbook [Data Analysis for Business, Economics and Policy](https://gabors-data-analysis.com), and Policy' by [Gábor Békés](https://sites.google.com/site/bekesg) and and [Gábor Kézdi](https://sites.google.com/accounts/SetOSID), have been instrumental in enhancing the quality and depth of the course material.

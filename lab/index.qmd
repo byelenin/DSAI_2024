@@ -1,0 +1,42 @@
+---
+title: "**Computer Labs**"
+subtitle: "Intro 'Metrics,Spring 2024"
+# author: "Instructor:曲兆鹏;TA:成佳怡"
+# institute: "南京大学"
+output:
+  prettydoc::html_pretty:
+    theme: leonids
+    highlight: github
+---
+
+```{=html}
+<style type="text/css">
+  body{
+  font-size: 13pt;
+}
+</style>
+```
+
+------------------------------------------------------------------------
+
+#### Schedule(上机课详细日程安排)
+
+::: callout-tip
+## 
+
+-   *Location*: Yifu Building B-407
+-   *Time*: Friday 16:00-18:00
+:::
+
+| No. | Topic                                        | Recite                                                                            |                                      Stata_Slides                                       | R_Slides                                                                 | Date |
+|:----------:|:-----------|------------|:----------:|------------|:----------:|
+|  1  | Lab1: Introduction                           | [MathReview1](https://byelenin.github.io/Metrics_2023/Labs/Math/Recite1_2024.pdf) | [Lec1_S](https://byelenin.github.io/Metrics_2023/Labs/Stata_2024/Lec1_Introduction.pdf) | [Lec1_R](https://byelenin.github.io/Metrics_2023/Labs/R/R_Lab1_2022.pdf) | 3/1  |
+|  2  | Lab2: Data Management(I)                     | [MathReview2](https://byelenin.github.io/Metrics_2023/Labs/Math/Recite2_2024.pdf)                                                                   |                                        Lec2_S()                                         |     [Lec2_R](https://byelenin.github.io/Metrics_2023/Labs/R/R_Lab2_2022.pdf)                                                                 | 3/8  |
+|  3  | Lab3: Data Management(II)                    |                                                                                   |                                        Lec3_S()                                         | Lec3_S()                                                                 | 3/15 |
+|  4  | Lab4: Markdown Output                        |                                                                                   |                                        Lec4_S()                                         | Lec4_S()                                                                 | 3/22 |
+|  5  | Lab5: Tables and Figures                     |                                                                                   |                                        Lec5_S()                                         | Lec5_S()                                                                 | 4/5  |
+|  6  | Lab6: OLS Regression                         |                                                                                   |                                        Lec6_S()                                         | Lec6_S()                                                                 | 4/19 |
+|  7  | Lab7: Binary and Limited Dependent Variables |                                                                                   |                                        Lec7_S()                                         | Lec7_S()                                                                 | 4/26 |
+|  8  | Lab8: Fixed Effect and Panel Data            |                                                                                   |                                        Lec8_S()                                         | Lec8_S()                                                                 | 5/10 |
+|  9  | Lab9: DID                                    |                                                                                   |                                        Lec9_S()                                         | Lec9_S                                                                   | 5/24 |
+| 10  | Lab10: Time series and ML                    |                                                                                   |                                        Lec10_S()                                        | Lec10_S                                                                  | 6/7  |
