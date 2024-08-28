@@ -3,7 +3,7 @@ project:
   output-dir: docs
 
 website:
-  title: "Intro to 'Metrics at NJU"
+  title: "Data Science and AI for Economists"
   description: "Course taught by Professor Zhaopeng Qu at Business School of Nanjing University"
   site-url: "https://byelenin.github.io/Metrics_2024/"
   favicon: "/Pics/logo.png"
@@ -18,8 +18,8 @@ website:
         href: lab/index.qmd
       - text: "Project"
         href: project/index.qmd  
-      - text: "Homework"
-        href: homeworks/index.qmd
+      - text: "Resources"
+        href: homeworks/index.qm
 
     right:
       - icon: github
@@ -42,7 +42,7 @@ format:
     theme: 
     - Zephyr
     - Css/custom.scss
-    fontsize: 0.9em
+    fontsize: 1em
     linestretch: 1
     toc: true
     highlight-style: monokai

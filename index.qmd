@@ -1,6 +1,6 @@
 ---
-title: "Introduction to Econometrics"
-subtitle: "Spring 2024<br>Business School<br>Nanjing University"
+title: "Data Science and AI for Economists"
+subtitle: "Fall 2024<br>Business School<br>Nanjing University"
 sidebar: false
 toc: false
 page-layout: full
@@ -11,7 +11,7 @@ page-layout: full
 ## News
 
 ::: callout-important
-Hello everyone, *time certainly does fly*. Tomorrow's lecture will be our last. As usual, the lecture will be divided into two parts. In the first two hours, I'll conclude our discussion on the DID method. During the final hour, I'll provide a **brief review** of the semester's content and hold a **Q & A** session about the final exam. Looking forward to seeing you all tomorrow~~
+Hello everyone, *time certainly does fly*. Tomorrow's lecture will be our last. As usual, the lecture will be divided into two parts. In the first two hours, I'll conclude our discussion on the DID method. During the final hour, I'll provide a **brief review** of the semester's content and hold a **Q & A** session about the final exam. Looking forward to seeing you all tomorrow\~\~
 :::
 
 ------------------------------------------------------------------------
@@ -39,12 +39,6 @@ Specifically, we will learn six common econometric research design techniques th
 -   *Times Series and Machine Learning(TS and ML)*
 
 At the end, students will use at least one of them above to finish an empirical research proposal.
-
-::: callout-important
-**We'll be using “教学立方” for attendance tracking in class. Please join the class "计量经济学" in advance with the invite code** H5K8XZFV. A user's guide for “教学立方” is [here](https://jw.nju.edu.cn/_upload/article/files/85/e3/7182ffda42e3bdd6ec9057b3317d/04c25f3e-cf2f-4c3e-9335-62802290fa3a.pdf).
-:::
-
-------------------------------------------------------------------------
 
 ```{r, out.width = "1200px", echo=FALSE, fig.align='center'}
 knitr::include_graphics("Pics/teaching.jpeg")
