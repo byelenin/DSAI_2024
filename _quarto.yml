@@ -5,7 +5,7 @@ project:
 website:
   title: "Data Science and AI for Economists"
   description: "Course taught by Professor Zhaopeng Qu at Business School of Nanjing University"
-  site-url: "https://byelenin.github.io/Metrics_2024/"
+  site-url: "https://byelenin.github.io/DSAI_2024/"
   favicon: "/Pics/logo.png"
   navbar:
     left:
