@@ -11,35 +11,20 @@ page-layout: full
 ## News
 
 ::: callout-important
-Hello everyone, *time certainly does fly*. Tomorrow's lecture will be our last. As usual, the lecture will be divided into two parts. In the first two hours, I'll conclude our discussion on the DID method. During the final hour, I'll provide a **brief review** of the semester's content and hold a **Q & A** session about the final exam. Looking forward to seeing you all tomorrow\~\~
+Welcome to the course website for the 2024 edition of **Data Science and Artificial Intelligence for Economic and Social Research**.
 :::
 
 ------------------------------------------------------------------------
 
 ## Course Description
 
-Welcome to the course website for the 2024 edition of Introduction to Econometrics, also known as "Intro'Metrics"(Jiliang). This course is delivered by [Prof. Zhaopeng Qu](https://byelenin.github.io/zh/index.html) and his teaching assistants at the Business School, Nanjing University.
+Welcome to the course website for the 2024 edition of **Data Science and Artificial Intelligence for Economic and Social Research**. This course introduces students to the foundational concepts of data science and artificial intelligence, emphasizing their practical applications in economics and social sciences. Topics covered include spatial data analysis, web scraping and text analysis, OCR and text recognition, and machine learning techniques. Unlike traditional econometrics courses, the focus is on using real-world examples and hands-on projects to develop students’ ability to work with non-traditional economic data.
 
-It introduces students to modern econometrics, including *causal inference*, *time series*, and *machine learning* techniques, and their applications in economics and other social sciences. The course focuses more on intuition and practical examples, while keeping the mathematical content to a minimum. Notably, *matrix notation is not used*.
+The course prioritizes practical skills and intuition over theoretical or mathematical rigor, allowing students to gain experience with modern data science tools without being overwhelmed by complex equations. The goal is to equip students with the skills needed to apply data science and AI methods in their research and critically assess empirical studies that utilize these techniques.
 
-The goal is to help students develop a solid theoretical background in introductory level econometrics, an ability to implement modern econometric methods, and a critical thinking about empirical studies in economics and other social sciences.
+Specifically, students will learn how to use various data science and AI tools to analyze non-traditional data sources and make reliable predictions about economic and social relationships. This course is designed to help students become more competitive in the field of economic research in the digital age.
 
-Specifically, we will learn six common econometric research design techniques that aim to credibly estimate causal effects and reliably make prediction on economic and social relationships:
-
--   *Randomized Controlled Trial(RCT)*
-
--   *Regression(OLS)*
-
--   *Instrumental Variables(IV)*
-
--   *Regression Discontinuity Designs(RDD)*
-
--   *Panel Data and Differences-in-Differences(DID)*
-
--   *Times Series and Machine Learning(TS and ML)*
-
-At the end, students will use at least one of them above to finish an empirical research proposal.
-
+------------------------------------------------------------------------
 ```{r, out.width = "1200px", echo=FALSE, fig.align='center'}
 knitr::include_graphics("Pics/teaching.jpeg")
 ```

@@ -1,6 +1,6 @@
 ---
 title: "**Syllabus(课程计划)** "
-subtitle: "Intro 'Metrics, Spring 2024"
+subtitle: "DS & AI for Economists,Fall 2024"
 # author: "Instructor:曲兆鹏;TA:王紫澍"
 # institute: "南京大学"
 output:
@@ -18,67 +18,30 @@ output:
 ```
 ### Course Description
 
-This course introduces students to modern causal inference methods for analyzing data in economics and other social sciences. The goal is to help you develop a solid theoretical background in introductory level econometrics, the ability to implement modern econometric methods, and the critical thinking about empirical studies in economics and other social sciences. Specifically, we will learn **seven** modern econometric research design techniques that aim to estimate causal effects credibly and make predictions scientifically on economic and social relationships:
+This course is designed to teach students how to use the latest knowledge and tools in data science and artificial intelligence to enhance their ability to analyze economic and social big data. 
 
--   *Randomized Controlled Trial(RCT)*
+Through specific application cases, students will gain an introductory understanding of basic tools in artificial intelligence and data science, and apply these tools in areas such as spatial data analysis, web scraping and text analysis, OCR and text recognition, and machine learning applications. Unlike traditional econometrics courses or machine learning courses, this course does not focus on the theory behind various algorithms or methods. Instead, it centers on fundamental knowledge and tools in data science and artificial intelligence, using real-world cases and project-based tasks to develop students' ability to acquire, process, and utilize non-traditional economic data. The goal is to enhance students' competitiveness in economic research in the digital age.
 
--   *Regression(OLS)*
-
--   *Instrumental Variables(IV)*
-
--   *Regression Discontinuity Designs(RDD)*
-
--   *Panel Data and Differences-in-Differences(DID)*
-
--   *Introduction to Times Series(TS)*
-
--   *Machine Learning and Forecasting(ML)*
-
-At the end, students will use at least one of them above to finish an empirical research proposal.
+At the end, students will use the to finish an empirical research projects with big data based on the knowledge and tools learned in this course.
 
 ### Evaluation
 
 -   Participation（$10\%$）
 
--   Homework ($10\%\times2=20\%$)
+-   Proposal Presentations for Group Projects ($40\%$)
 
--   Final exam ($40\%$)
-
--   Group project ($30\%$)
+-   Preliminary results for Group Projects ($50\%$)
 
 ### Textbooks
 
-#### Econometrics
+#### Data Science and Artificial Intelligence
 
--   James H. Stock and Mark W. Watson, *Introduction to Econometrics*, 3rd Edition, Addison-Wesley, 2012.
 
--   Jeffrey M. Wooldridge, *Introductory Econometrics: A Modern Approach*, 5th Edition, South-Western College, 2013.
-
--   Joshua Angrist and Jorn-Steffen Pischke, *Mastering' Metrics: The Path from Cause to Effect*, Princeton press, 2015.
-
-• Joshua Angrist and Jorn-Steffen Pischke, *Mostly Harmless Econometrics: An Empiricist's Companion*, Princeton press, 2008.
 
 -   Gareth James, Daniela Witten, Trevor Hastie and Robert Tibshirani, *An Introduction to Statistical Learning: with Applications in R*, Springer, 2013.
 
-#### Computing Softwares： Stata and R
+#### Computing Softwares： Python and R
 
--   任意一本关于Stata或R的中文书
-
-#### Additional Readings
-
--   Steven D. Levitt and Stephen J. Dubner, Freakonomics: A Rogue Economist Explores the Hidden Side of Everything, 2005. (中译本《魔鬼经济学》 斯蒂夫\cdot列维特和斯蒂芬\\cdot都伯纳著，广东经济出版社，2006年1月。)
-
--   Steven D. Levitt and Stephen J. Dubner, SuperFreakonomics: Global Cooling, Patriotic Prostitutes, and Why Suicide Bombers Should Buy Life Insurance, 2009.（中译本，《超爆魔鬼经济学》，斯蒂夫\cdot列维特和斯蒂芬\\cdot都伯纳著，中信出版社，2010年1月。）
-
--   Ian Ayres, Super Crunchers: Why Thinking-By-Numbers is the New Way To Be Smart, 2007. (中译本《超级数字天才》，伊恩\cdot艾瑞斯著，中国青年出版社，2008年1月。)
-
--   Raymond Fisman and Edward Miguel, Economic Gangster：Corruption, Violence and the Poverty of Nations, 2008. (中译本《经济黑帮：腐败、暴力的黑帮经济学》，中信出版社，2010年8月)
-
--   Abhijit V. Banerjee & Esther Duflo, Poor Economics A Radical Rethinking of the Way to Fight Global Poverty, 2011.(中译本:《贫穷的本质：我们为什么摆脱不了贫穷》，中信出版社。）
-
--   Angus Deaton, The Great Escape:Health,Wealth,and the Origins of Inequality,2015.(中译本: 《逃离不平等: 健康、财富及不平等的起源》，中信出版社。）
-
--   涂子沛，《大数据：正在到来的数据革命，以及它如何改变政府、商业与我们的生活》，广西师范大学出版社，2012年7月。
 
 ### Outline
 

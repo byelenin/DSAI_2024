@@ -1,6 +1,6 @@
 ---
 title: "**Schedule and Slides** "
-subtitle: "Intro 'Metrics, Spring 2024"
+subtitle: "Data Science and AI, Fall 2024"
 #date: "`r Sys.Date()`"
 #author: "曲兆鹏"
 #institute: "南京大学"
@@ -33,6 +33,6 @@ output:
 |  12  | 5/23 | Regression Discontinuity Design                                         |        [Lec11](https://byelenin.github.io/Metrics_2023/Slides/2024/Metrics_Lec11_2024.pdf)         |
 |  13  | 5/30 | Panel Data(I): Fixed Effect                                             |        [Lec12](https://byelenin.github.io/Metrics_2023/Slides/2024/Metrics_Lec12_2024.pdf)         |
 |  14  | 6/6  | Panel Data(II): Difference-in-Differences                               |        [Lec13](https://byelenin.github.io/Metrics_2023/Slides/2024/Metrics_Lec13_2024.pdf)         |
-|  15  | 6/13 | Final Review                                                            |       [Lec14](https://byelenin.github.io/Metrics_2023/Slides/2024/Metrics_FinalReview_2024.pdf)     |
+|  15  | 6/13 | Final Review                                                            |     [Lec14](https://byelenin.github.io/Metrics_2023/Slides/2024/Metrics_FinalReview_2024.pdf)      |
 
 : Fruit prices {.striped .hover}
