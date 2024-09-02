@@ -95,7 +95,7 @@
     "href": "lab/index.html",
     "title": "Computer Labs",
     "section": "",
-    "text": "Schedule(上机课详细日程安排)\n\n\n\n\n\n\nTip\n\n\n\n\nLocation: Yifu Building B-407\nTime: Friday 16:00-18:00\n\n\n\n\n\n\nNo.\nTopic\nRecite\nStata_Slides\nR_Slides\nDate\n\n\n\n\n1\nLab1: Introduction\nMathReview1\nLec1_S\nLec1_R\n3/1\n\n\n2\nLab2: Data Management(I)\nMathReview2\nLec2_S()\nLec2_R\n3/8\n\n\n3\nLab3: Data Management(II)\n\nLec3_S()\nLec3_S()\n3/15\n\n\n4\nLab4: Markdown Output\n\nLec4_S()\nLec4_S()\n3/22\n\n\n5\nLab5: Tables and Figures\n\nLec5_S()\nLec5_S()\n4/5\n\n\n6\nLab6: OLS Regression\n\nLec6_S()\nLec6_S()\n4/19\n\n\n7\nLab7: Binary and Limited Dependent Variables\n\nLec7_S()\nLec7_S()\n4/26\n\n\n8\nLab8: Fixed Effect and Panel Data\n\nLec8_S()\nLec8_S()\n5/10\n\n\n9\nLab9: DID\n\nLec9_S()\nLec9_S\n5/24\n\n\n10\nLab10: Time series and ML\n\nLec10_S()\nLec10_S\n6/7"
+    "text": "Schedule\n\n\n\n\n\n\nNOTICE\n\n\n\nThis course does not have additional lab sessions; all content will be taught and practiced during the lectures. We encourage students to bring their laptops to class. Specific materials required for in-class exercises will be listed below.\n\n\n\n\n\n\n\n\n\n\n\n\n\nNo.\nTopic\nSlides\nCode\nData Sample\nDate\n\n\n\n\n1\n\n\n\n\n9/26\n\n\n2\n\n\n\n\n10/3\n\n\n3\n\n\n\n\n10/10"
   },
   {
     "objectID": "schedule/index.html",
