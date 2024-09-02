@@ -31,5 +31,3 @@ knitr::include_graphics("Pics/teaching.jpeg")
 ```
 
 #### Acknowledge
-
-
