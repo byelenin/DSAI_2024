@@ -42,18 +42,11 @@
     "text": "This project is a crucial component of the course assessment. It evaluates students’ ability to collect, clean, and analyze economic and social big data using the research methods and AI tools learned in class.\nThe project comprises 90% of the total grade, divided between a mid-term research plan (50%) and a final results presentation (40%).\nStudents will work in pairs to submit a proposal mid-semester and a final report. Each group of two will jointly submit one research project proposal and one report, complete with supporting data and code. (If you cannot find a partner, don’t hesitate to seek assistance from the teaching assistant or instructor.)"
   },
   {
-    "objectID": "project/index.html#研究计划基本要求",
-    "href": "project/index.html#研究计划基本要求",
+    "objectID": "project/index.html#for-a-data-driven-research-proposal-数据研究计划内容指南",
+    "href": "project/index.html#for-a-data-driven-research-proposal-数据研究计划内容指南",
     "title": "Research Proposal",
-    "section": "研究计划基本要求：",
-    "text": "研究计划基本要求：\n\nTBD"
-  },
-  {
-    "objectID": "project/index.html#附件afor-a-research-proposal研究计划内容指南",
-    "href": "project/index.html#附件afor-a-research-proposal研究计划内容指南",
-    "title": "Research Proposal",
-    "section": "附件A：For A Research Proposal(研究计划内容指南）",
-    "text": "附件A：For A Research Proposal(研究计划内容指南）\n\nTBD"
+    "section": "For A Data-driven Research Proposal (数据研究计划内容指南）",
+    "text": "For A Data-driven Research Proposal (数据研究计划内容指南）\n\nTBD"
   },
   {
     "objectID": "syllabus/Syllabus.html",
@@ -116,7 +109,7 @@
     "href": "syllabus/index.html",
     "title": "Syllabus(课程计划)",
     "section": "",
-    "text": "Course Description\nThis course is designed to teach students how to use the latest knowledge and tools in data science and artificial intelligence to enhance their ability to analyze economic and social big data.\nThrough specific application cases, students will gain an introductory understanding of basic tools in artificial intelligence and data science, and apply these tools in areas such as spatial data analysis, web scraping and text analysis, OCR and text recognition, and machine learning applications. Unlike traditional econometrics courses or machine learning courses, this course does not focus on the theory behind various algorithms or methods. Instead, it centers on fundamental knowledge and tools in data science and artificial intelligence, using real-world cases and project-based tasks to develop students’ ability to acquire, process, and utilize non-traditional economic data. The goal is to enhance students’ competitiveness in economic research in the digital age.\nAt the end, students will use the to finish an empirical research projects with big data based on the knowledge and tools learned in this course.\n\n\nEvaluation\n\nParticipation（\\(10\\%\\)）\nProposal Presentations for Group Projects (\\(40\\%\\))\nPreliminary results for Group Projects (\\(50\\%\\))\n\n\n\nTextbooks\n\nData Science and Artificial Intelligence\n\nGareth James, Daniela Witten, Trevor Hastie and Robert Tibshirani, An Introduction to Statistical Learning: with Applications in R, Springer, 2013.\n\n\n\nComputing Softwares： Python and R\n\n\n\nOutline\n(Preliminary, to be adjusted possibly)\n\nIntroduction\n\n\nWhat the course is about? What is the benefit if we learn it? How to learn it?\nProbability and Statistics Review\n\nStock and Watson (2012): Chapter 2-3.\nWooldridge (2013): Appendix A, B & C.\n\n\n\nCausal Inference in Social Science and Randomized Experiment(I)\n\n\nStock and Watson (2012): Chapter 1 & 13\nAngrist and Pischke (2014): Chapter 1\nAngrist and Pischke (2008): Chapter 1-2\nProbability and Statistics Review\n\nStock and Watson (2012): Chapter 2-3.\nWooldridge (2013): Appendix A, B & C.\n\n\n\nCausal Inference in Social Science and Randomized Experiment(II)\n\n\nStock and Watson (2012): Chapter 1 & 13\nAngrist and Pischke (2014): Chapter 1\nAngrist and Pischke (2008): Chapter 1-2\nProbability and Statistics Review\n\nStock and Watson (2012): Chapter 2-3.\nWooldridge (2013): Appendix A, B & C.\n\n\n\nRegression (I): Simple OLS-Estimation\n\n\nStock and Watson (2012): Chapter 4-5, 17\nWooldridge (2013): Chapter 2\nAngrist and Pischke (2014):Chapter 2\nAngrist and Pischke (2008): Chapter 3\n\n\nRegression (II)- Multiple OLS-Hypothesis Test\n\n\nStock and Watson (2012): Chapter 6-7\nWooldridge (2013): Chapter 3,\nAngrist and Pischke (2008): Chapter 3\nAngrist and Pischke (2014): Chapter 2\n\n\nRegression Review (III): Multiple OLS-Estimation and Hypothesis Test\n\n\nStock and Watson (2012): Chapter 6-7\nWooldridge (2013): Chapter 4-5\n\n\nRegression Review (IV): Nonlinear Regression Functions\n\n\nStock and Watson (2012): Chapter 8-9\nWooldridge (2013): Chapter 6-8\n\n\nRegression Review (V): Binary Dependent Variables\n\n\nStock and Watson (2012): Chapter 11\nWooldridge (2013): Chapter 9 & 17\n\n\nInstrumental Variables (I)\n\n\nStock andWatson (2012): Chapter 12\nWooldridge (2013): Chapter 15\nAngrist and Pischke (2014): Chapter 3\nAngrist and Pischke (2008): Chapter 4\n\n\nInstrumental Variables (II)\n\n\nStock and Watson (2012): Chapter 12\nWooldridge (2013): Chapter 15\nAngrist and Pischke (2014): Chapter 3\nAngrist and Pischke (2008): Chapter 4\n\n\nRegression Discontinuity (I)\n\n\nAngrist and Pischke (2008): Chapter 4\nAngrist and Pischke (2014): Chapter 4\nGuido W. Imbens and Thomas Lemieux (2007), “Regression discontinuity designs: A guide to practice”, Journal of Econometrics, 142(2), pp.615-635.\n\n\nRegression Discontinuity (II)\n\n\nAngrist and Pischke (2008): Chapter 4\nAngrist and Pischke (2014): Chapter 4\nGuido W. Imbens and Thomas Lemieux (2007), “Regression discontinuity designs: A guide to practice”, Journal of Econometrics, 142(2), pp.615-635.\n\n\nFixed Effect and Difference in Differences (I)\n\n\nAngrist and Pischke (2014): Chapter 5\nStock and Watson (2012): Chapter 10\nWooldridge (2013): Chapter 13\n\n\nFixed Effect and Difference in Differences (II)\n\n\nAngrist and Pischke (2014): Chapter 5\nStock and Watson (2012): Chapter 10\nWooldridge (2013): Chapter 13\n\n\nIntroduction to Times Series (I)\n\n\nStock and Watson (2012): Chapter 14\nJames et al (2013): Chapter 1\n\n\nIntroduction to Times Series (II)\n\n\nStock and Watson (2012): Chapter 15\nJames et al (2013): Chapter 2\n\n\nFinal Review"
+    "text": "Course Description\nThis course is designed to teach students how to use the latest knowledge and tools in data science and artificial intelligence to enhance their ability to analyze economic and social big data.\nThrough specific application cases, students will gain an introductory understanding of basic tools in artificial intelligence and data science, and apply these tools in areas such as spatial data analysis, web scraping and text analysis, OCR and text recognition, and machine learning applications. Unlike traditional econometrics courses or machine learning courses, this course does not focus on the theory behind various algorithms or methods. Instead, it centers on fundamental knowledge and tools in data science and artificial intelligence, using real-world cases and project-based tasks to develop students’ ability to acquire, process, and utilize non-traditional economic data. The goal is to enhance students’ competitiveness in economic research in the digital age.\nAt the end, students will use the to finish an empirical research projects with big data based on the knowledge and tools learned in this course.\n\n\nEvaluation\n\nParticipation（\\(10\\%\\)）\nProposal Presentations for Group Projects (\\(50\\%\\))\nPreliminary results for Group Projects (\\(40\\%\\))\n\n\n\nTextbooks\n\nData Science and Artificial Intelligence\n\nHadley Wickham and Garrett Grolemund, R for Data Science:Second edition,O’Reilly Media, 2023.\nGareth James, Daniela Witten, Trevor Hastie and Robert Tibshirani, An Introduction to Statistical Learning: with Applications in R: Second edition, Springer, 2023.\n\n\n\nOther online resources\n\nThe course will also use a variety of online resources, including but not limited to the following:\n\nDataCamp\nGitHub\nStack Overflow\nKaggle\nRStudio Community\n\n\n\n\n\nOutline\n(Preliminary, to be adjusted possibly)"
   },
   {
     "objectID": "about.html",
@@ -131,12 +124,5 @@
     "title": "Homework",
     "section": "",
     "text": "Schedule\n\n\n\n\n\n\nSchedule\n\n\n\nThe 1st homework is due on April 14 2:00 am.\n\n\n\n\n\nNo.\nTopic\nDue to\n\n\n\n\n1\nHomework\nApril 14 2:00 am\n\n\n2\n[Homework 2]"
-  },
-  {
-    "objectID": "project/index.html#for-a-data-driven-research-proposal-数据研究计划内容指南",
-    "href": "project/index.html#for-a-data-driven-research-proposal-数据研究计划内容指南",
-    "title": "Research Proposal",
-    "section": "For A Data-driven Research Proposal (数据研究计划内容指南）",
-    "text": "For A Data-driven Research Proposal (数据研究计划内容指南）\n\nTBD"
   }
 ]

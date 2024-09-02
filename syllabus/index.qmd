@@ -18,7 +18,7 @@ output:
 ```
 ### Course Description
 
-This course is designed to teach students how to use the latest knowledge and tools in data science and artificial intelligence to enhance their ability to analyze economic and social big data. 
+This course is designed to teach students how to use the latest knowledge and tools in data science and artificial intelligence to enhance their ability to analyze economic and social big data.
 
 Through specific application cases, students will gain an introductory understanding of basic tools in artificial intelligence and data science, and apply these tools in areas such as spatial data analysis, web scraping and text analysis, OCR and text recognition, and machine learning applications. Unlike traditional econometrics courses or machine learning courses, this course does not focus on the theory behind various algorithms or methods. Instead, it centers on fundamental knowledge and tools in data science and artificial intelligence, using real-world cases and project-based tasks to develop students' ability to acquire, process, and utilize non-traditional economic data. The goal is to enhance students' competitiveness in economic research in the digital age.
 
@@ -28,161 +28,30 @@ At the end, students will use the to finish an empirical research projects with 
 
 -   Participation（$10\%$）
 
--   Proposal Presentations for Group Projects ($40\%$)
+-   Proposal Presentations for Group Projects ($50\%$)
 
--   Preliminary results for Group Projects ($50\%$)
+-   Preliminary results for Group Projects ($40\%$)
 
 ### Textbooks
 
 #### Data Science and Artificial Intelligence
 
+- Hadley Wickham and Garrett Grolemund, [*R for Data Science:Second edition*](https://r4ds.hadley.nz),O'Reilly Media, 2023.
+
+- Gareth James, Daniela Witten, Trevor Hastie and Robert Tibshirani, [*An Introduction to Statistical Learning: with Applications in R: Second edition*](https://hastie.su.domains/ISLR2/ISLRv2_corrected_June_2023.pdf.download.html), Springer, 2023.
 
 
--   Gareth James, Daniela Witten, Trevor Hastie and Robert Tibshirani, *An Introduction to Statistical Learning: with Applications in R*, Springer, 2013.
+#### Other online resources
 
-#### Computing Softwares： Python and R
+- The course will also use a variety of online resources, including but not limited to the following:
 
+    - [DataCamp](https://www.datacamp.com)
+    - [GitHub](https://github.com)
+    - [Stack Overflow](https://stackoverflow.com)
+    - [Kaggle](https://www.kaggle.com)
+    - [RStudio Community](https://community.rstudio.com)
 
 ### Outline
 
 (Preliminary, to be adjusted possibly)
 
-1.  **Introduction**
-
--   What the course is about? What is the benefit if we learn it? How to learn it?
-
--   Probability and Statistics Review
-
-    -   Stock and Watson (2012): Chapter 2-3.
-
-    -   Wooldridge (2013): Appendix A, B & C.
-
-2.  **Causal Inference in Social Science and Randomized Experiment(I)**
-
--   Stock and Watson (2012): Chapter 1 & 13
-
--   Angrist and Pischke (2014): Chapter 1
-
--   Angrist and Pischke (2008): Chapter 1-2
-
--   Probability and Statistics Review
-
-    -   Stock and Watson (2012): Chapter 2-3.
-    -   Wooldridge (2013): Appendix A, B & C.
-
-3.  **Causal Inference in Social Science and Randomized Experiment(II)**
-
--   Stock and Watson (2012): Chapter 1 & 13
-
--   Angrist and Pischke (2014): Chapter 1
-
--   Angrist and Pischke (2008): Chapter 1-2
-
--   Probability and Statistics Review
-
-    -   Stock and Watson (2012): Chapter 2-3.
-    -   Wooldridge (2013): Appendix A, B & C.
-
-4.  **Regression (I): Simple OLS-Estimation**
-
--   Stock and Watson (2012): Chapter 4-5, 17
-
--   Wooldridge (2013): Chapter 2
-
--   Angrist and Pischke (2014):Chapter 2
-
--   Angrist and Pischke (2008): Chapter 3
-
-5.  **Regression (II)- Multiple OLS-Hypothesis Test**
-
--   Stock and Watson (2012): Chapter 6-7
-
--   Wooldridge (2013): Chapter 3,
-
--   Angrist and Pischke (2008): Chapter 3
-
--   Angrist and Pischke (2014): Chapter 2
-
-6.  **Regression Review (III): Multiple OLS-Estimation and Hypothesis Test**
-
--   Stock and Watson (2012): Chapter 6-7
-
--   Wooldridge (2013): Chapter 4-5
-
-7.  **Regression Review (IV): Nonlinear Regression Functions**
-
--   Stock and Watson (2012): Chapter 8-9
-
--   Wooldridge (2013): Chapter 6-8
-
-8.  **Regression Review (V): Binary Dependent Variables**
-
--   Stock and Watson (2012): Chapter 11
-
--   Wooldridge (2013): Chapter 9 & 17
-
-9.  **Instrumental Variables (I)**
-
--   Stock andWatson (2012): Chapter 12
-
--   Wooldridge (2013): Chapter 15
-
--   Angrist and Pischke (2014): Chapter 3
-
--   Angrist and Pischke (2008): Chapter 4
-
-10. **Instrumental Variables (II)**
-
--   Stock and Watson (2012): Chapter 12
-
--   Wooldridge (2013): Chapter 15
-
--   Angrist and Pischke (2014): Chapter 3
-
--   Angrist and Pischke (2008): Chapter 4
-
-11. **Regression Discontinuity (I)**
-
--   Angrist and Pischke (2008): Chapter 4
-
--   Angrist and Pischke (2014): Chapter 4
-
--   Guido W. Imbens and Thomas Lemieux (2007), “Regression discontinuity designs: A guide to practice”, Journal of Econometrics, 142(2), pp.615-635.
-
-12. **Regression Discontinuity (II)**
-
--   Angrist and Pischke (2008): Chapter 4
-
--   Angrist and Pischke (2014): Chapter 4
-
--   Guido W. Imbens and Thomas Lemieux (2007), “Regression discontinuity designs: A guide to practice”, Journal of Econometrics, 142(2), pp.615-635.
-
-13. **Fixed Effect and Difference in Differences (I)**
-
--   Angrist and Pischke (2014): Chapter 5
-
--   Stock and Watson (2012): Chapter 10
-
--   Wooldridge (2013): Chapter 13
-
-14. **Fixed Effect and Difference in Differences (II)**
-
--   Angrist and Pischke (2014): Chapter 5
-
--   Stock and Watson (2012): Chapter 10
-
--   Wooldridge (2013): Chapter 13
-
-15. **Introduction to Times Series (I)**
-
--   Stock and Watson (2012): Chapter 14
-
--   James et al (2013): Chapter 1
-
-16. **Introduction to Times Series (II)**
-
--   Stock and Watson (2012): Chapter 15
-
--   James et al (2013): Chapter 2
-
-17. **Final Review**
