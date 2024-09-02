@@ -39,35 +39,21 @@
     "href": "project/index.html",
     "title": "Research Proposal",
     "section": "",
-    "text": "本学期计量课期末考试的重要部分。主要考察同学们运用计量方法进行研究设计以及实际利用计量软件处理现实数据的动手能力等方面。\n占总成绩的\\(30\\%\\)。(其他各部分占比：出勤率\\(10\\%\\)，作业\\(20\\%\\)，期末考试\\(40\\%\\))\n由于本学期选课人数较多，因此我们将以研究小组形式提交研究计划。每个小组2人，每组提交研究项目1个。（如果实在找不到合作伙伴，可以向助教或老师求助）"
+    "text": "This project is a crucial component of the course assessment. It evaluates students’ ability to collect, clean, and analyze economic and social big data using the research methods and AI tools learned in class.\nThe project comprises 90% of the total grade, divided between a mid-term research plan (50%) and a final results presentation (40%).\nStudents will work in pairs to submit a proposal mid-semester and a final report. Each group of two will jointly submit one research project proposal and one report, complete with supporting data and code. (If you cannot find a partner, don’t hesitate to seek assistance from the teaching assistant or instructor.)"
   },
   {
     "objectID": "project/index.html#研究计划基本要求",
     "href": "project/index.html#研究计划基本要求",
     "title": "Research Proposal",
     "section": "研究计划基本要求：",
-    "text": "研究计划基本要求：\n\n推荐使用微观数据集(数据结构为Cross-sectional 或 Panel)\n推荐使用本文后面介绍的微观数据集或者从网络上收集的相关数据，尤其是鼓励大家使用作业中清理好的数据集。\n语言：中英文书写均可，提交英文者，卷面会根据情况适当多给5-10分。\n篇幅与字数：2000字数以上+图表若干，至少3页以上（A4页）。"
+    "text": "研究计划基本要求：\n\nTBD"
   },
   {
     "objectID": "project/index.html#附件afor-a-research-proposal研究计划内容指南",
     "href": "project/index.html#附件afor-a-research-proposal研究计划内容指南",
     "title": "Research Proposal",
     "section": "附件A：For A Research Proposal(研究计划内容指南）",
-    "text": "附件A：For A Research Proposal(研究计划内容指南）\n一篇好的经验研究项目计划书的大致内容应该有如下部分：\n\n研究动机\n\n\n拟发现或提出的提出的问题。\n从研究问题的理论、经验和政策三方面来说为什么本研究有意义？\n\n\n文献回顾\n\n\n对之前的文献进行简要的综述，主要结论是什么？\n这些研究可能存在哪些缺陷？\n本文的研究以哪些重要文献作为研究基础，并有可能在哪些方面对上述文献进行扩展或改进？\n\n\n研究方法和拟解决的关键性问题\n\n\n你的项目中最关心的变量是什么？自变量和因变量是什么？ 在项目要克服的主要的识别的困难是什么？（即是否样本不随机，存在自选择或者互为因果等关系？）\n所以，为了克服上述困难，你打算所采用的主要经验研究方法是什么？（比如我们上课介绍的多元回归、分解、工具变量、双重差分法和断点回归等等）。为什么这种方法能够解决你研究中的识别困难？\n\n\n数据来源和数据类型 数据从何而来，以什么为单位？为什么你所使用的数据适合做本项目的研究，该数据有哪些优势和劣势？\n1）从数据类型上看，属于我们上课所说的哪种类型？\n\ncross-sectional\npanel\ntime series\n\n2）数据是否要进行一些处理，比如去掉一些缺失值和异常值等或者去掉一些不符合条件的样本。比如研究工资问题，通常将不在工作状态的样本去掉。\n3）研究问题中自变量和因变量分别对应数据库中哪个或哪些变量？\n数据的基本描述\n\n数据信息的基本描述:我们最关心的因变量、自变量和其他控制变量的基本统计性描述信息（均值、方差、最大值最小值等等）。\n如果有可能的话可以做比较两组均值的差异分析（类似我们上课做的），再用散点图看一看因变量和自变量之间的关系。\n\n预期的结果\n\n本研究项目期望得到的结果是什么？\n结果对研究和政策有哪些直接的贡献？\n研究结果的潜在的局限性有哪些？如何能够克服？"
-  },
-  {
-    "objectID": "project/index.html#potential-topics",
-    "href": "project/index.html#potential-topics",
-    "title": "Research Proposal",
-    "section": "Potential Topics",
-    "text": "Potential Topics\n\n人口与劳动经济学\n\n健康和营养方面：比如肥胖、吸烟和喝酒对工资、家庭消费和福利的影响\n教育和培训：在职培训对城市居民和农民工就业及工资的影响。\n失业就业研究：“四万亿”投资与就业、“一带一路”策略与就业、工作流动性研究\n劳动力市场市场化程度研究\n农民工工资上涨的原因？劳动力短缺还是制度原因（最低工资制度还是劳动合同法）\n人口问题：计划生育、二胎的影响\n新《劳动合同法》、机器人更新换代、产业升级、新冠肺炎疫情的相关影响？\n\n教育经济学\n\n城乡中学教育质量的差异？\n“补课”是否有用？\n“快慢班”对学生成绩的影响？\n家长投入（时间、金钱等方面）对学生学习成绩的影响？\n“重点学校”对学生成绩的影响？\n“教培”行业被整顿对学生成绩的影响\n\n发展经济学\n\n\n收入分配：工资不平等和收入不平等和代际传递\n城乡移民迁移：\n\n\n\n迁移决策的决定：教育、土地、家庭结构及社会网络如何决定移民的决策？\n对迁移地的影响：比如农民工迁移对当地就业和工资的影响\n对迁出地的影响：比如农民工迁移对农村收入分配和贫困的影响\n其他衍生问题：子女教育、婚姻质量、青年农民工等等\n\n\n\n腐败问题：\n\n\n\n反腐运动对家庭消费、奢侈品消费、餐饮消费的影响？\n被双规的官员的特征(是否有某些决定性的因素决定了容易腐败？比如是否是副职，是否在某些特定部门（财税、建设、交通、还是。。。）是否有年龄效应（59岁），（找到一个影响最大的来研究）腐败的程度是否有差别？\n\n\n环境与健康\n\n空气、水污染的原因：与交通、工业之间的关系\n空气、水污染的治理与经济发展\n空气、水污染对居民健康、劳动生产率、消费、幸福感等方面的影响\n\n其实还有很多很多的问题都可以做，上面只是我暂时想到的一些题目，特点是一般都有相应的数据支持，有一定的文献积累。也特别欢迎你们想一些自己感兴趣的题目，我相信：“兴趣永远是最好的老师”。希望大家都能认真准备，最后能给我一些惊喜！"
-  },
-  {
-    "objectID": "project/index.html#附件b重要微观数据库简要汇总",
-    "href": "project/index.html#附件b重要微观数据库简要汇总",
-    "title": "Research Proposal",
-    "section": "附件B：重要微观数据库简要汇总",
-    "text": "附件B：重要微观数据库简要汇总\n\n1. 住户调查\n\n中国家庭收入调查:China Household Income Project Survey(CHIPs)\n\n负责机构：北京师范大学中国收入分配研究院\n数据结构：多年截面数据\n年份：1988、1995、1999、2002、2007、2008、2013\n覆盖范围：城市、农村和城乡移民家庭（2002年开始）\n主要变量：1）个人：基本状况、工作信息和收入等；2）家庭：收入、消费、资产和居住情况等。3）社区（村庄）层面信息。\n\n中国家庭追踪调查: China Family Panel Survey(CFPS)\n\n负责机构：北京大学中国社科调查中心\n数据结构：多年面板数据\n年份：2010、2012、2014和2016\n覆盖范围：城市和农村\n主要变量：1）个人：基本状况、工作、收入、健康等信息；2）家庭：收入、消费、资产和居住情况等；3）社区信息\n\n中国健康养老追踪调查:China Health and Retirement Longitudinal Study\n\n负责机构：北京大学中国经济研究中心\n数据结构：多年面板数据\n年份：2011、2013、2014和2015\n覆盖范围：城市和农村有45岁以上老人的家庭\n主要变量：非常详细的个人和家庭的信息包括很详细的个人健康信息\n\n中国-印尼城乡移民调查：Rural to Urban Migration in China(RUMiC)\n\n负责机构：澳大利亚国立大学、IZA和北京师范大学（现已经更换为暨南大学）\n数据结构：多年面板数据\n年份：2008-2017（目前可获取的只有2008-2009）\n覆盖范围：城市、农村和城乡移民\n主要变量：1）个人：基本状况、工作信息和收入等；2）家庭：收入、消费、资产和居住情况等\n\n中国社会综合调查： China General Social Survey(CGSS)\n\n负责机构：中国人民大学中国调查与数据中心\n数据结构：多年截面数据\n年份：2003、2005、2006、2008、2010、2011、2012、2013\n覆盖范围：城市和农村\n主要变量：1）个人：基本状况、工作和收入等信息之外，主要收集了价值观（包涵对很多社会问题的态度和观点等）2）家庭结构和状况等信息，3）社区信息\n\n中国劳动力动态调查(CLDS)\n中国健康与营养调查(CHNS)\n中国家庭金融调查(CHFS)\n中国基础教育追踪调查(CEPS)\n甘肃基础教育调查\n中国城镇住户调查（UHS）\n农业部固定观察点农户调查\n流动人口动态监测数据\n贫困人口动态监测数据\n\n\n\n2. 企业调查\n\n中国工业企业数据库\n中国海关进出口数据\n上市公司数据（万德/国泰君安数据库）\n\n\n\n3. 各级各类统计年鉴\n\n县级统计年鉴\n城市统计年鉴\n各省统计年鉴\n\n\n\n4. 其他网络大数据\n\n环境数据（环保部：空气、水和土壤）\n各级各类官员数据（省、市和县）\n豆瓣、猫眼和易恩网电影数据\n体育网站的体育赛事数据\n房地产数据（链家）\n国土利用数据（国土部遥感数据）\n灯光数据（NASA)\n京东、天猫、亚马逊和淘宝\n携程等机票、宾馆价格数据"
+    "text": "附件A：For A Research Proposal(研究计划内容指南）\n\nTBD"
   },
   {
     "objectID": "syllabus/Syllabus.html",
@@ -95,7 +81,7 @@
     "href": "lab/index.html",
     "title": "Computer Labs",
     "section": "",
-    "text": "Schedule\n\n\n\n\n\n\nNOTICE\n\n\n\nThis course does not have additional lab sessions; all content will be taught and practiced during the lectures. We encourage students to bring their laptops to class. Specific materials required for in-class exercises will be listed below.\n\n\n\n\n\n\n\n\n\n\n\n\n\nNo.\nTopic\nSlides\nCode\nData Sample\nDate\n\n\n\n\n1\n\n\n\n\n9/26\n\n\n2\n\n\n\n\n10/3\n\n\n3\n\n\n\n\n10/10"
+    "text": "NOTICE\n\n\n\nThis course does not have additional lab sessions; all content will be taught and practiced during the lectures. We encourage students to bring their laptops to class. Specific materials required for in-class exercises will be listed below.\n\n\n\n\n\n\n\n\n\n\n\n\n\nNo.\nTopic\nSlides\nCode\nData Sample\nDate\n\n\n\n\n1\n\n\n\n\n9/26\n\n\n2\n\n\n\n\n10/3\n\n\n3\n\n\n\n\n10/10"
   },
   {
     "objectID": "schedule/index.html",
