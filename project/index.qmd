@@ -5,21 +5,28 @@ subtitle: "DSAI,Fall 2024"
 
 ### 简介
 
-- This project is a crucial component of the course assessment. It evaluates students' ability to collect, clean, and analyze economic and social big data using the research methods and AI tools learned in class.
+-   This project is a crucial component of the course assessment. It evaluates students' ability to collect, clean, and analyze economic and social big data using the research methods and AI tools learned in class.
 
-- The project comprises **90%** of the total grade, divided between a mid-term research plan (**50%**) and a final results presentation (**40%**).
+-   The project comprises **90%** of the total grade, divided between a mid-term research plan (**50%**) and a final results presentation (**40%**).
 
-- Students will work in pairs to submit **a proposal mid-semester** and **a final report**. Each group of two will jointly submit one research project proposal and one report, complete with supporting data and code. (*If you cannot find a partner, don't hesitate to seek assistance from the teaching assistant or instructor*.)
+-   Students will work in pairs to submit **a proposal mid-semester** and **a final report**. Each group of two will jointly submit one research project proposal and one report, complete with supporting data and code. (*If you cannot find a partner, don't hesitate to seek assistance from the teaching assistant or instructor*.)
 
 ### 研究计划上交日期(Deadline for Research Proposal)
 
-| 时间                               | 内容                                   |
-|:---------------------------------:|:---------------------------------------:|
-| **10/30** | 上传 $\textcolor{blue}{期中研究计划}$ 到教学立方    |
-| **TBD**   | 上传   $\textcolor{blue}{期末研究報告}$   到教学立方 |
-
-
+|   时间    |                       内容                       |
+|:---------:|:------------------------------------------------:|
+| **10/30** | 上传 $\textcolor{blue}{期中研究计划}$ 到教学立方 |
+|  **TBD**  | 上传 $\textcolor{blue}{期末研究報告}$ 到教学立方 |
 
 ## For A Data-driven Research Proposal (*数据研究计划内容指南*）
 
-- TBD
+#### Project A - Satellite Data or Other Remote Sensing Data Analysis
+
+
+#### Project B - Social Media Data Acquisition and Analysis
+
+
+#### Project C - OCR and Text Data Analysis 
+
+
+
