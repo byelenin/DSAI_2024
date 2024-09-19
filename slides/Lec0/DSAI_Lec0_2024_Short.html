@@ -1,0 +1,1830 @@
+<!DOCTYPE html>
+<html lang="" xml:lang="">
+  <head>
+    <title>Data Science &amp; AI for Economists</title>
+    <meta charset="utf-8" />
+    <meta name="author" content="Zhaopeng Qu" />
+    <script src="libs/header-attrs/header-attrs.js"></script>
+    <link href="libs/remark-css/default.css" rel="stylesheet" />
+    <link href="libs/tile-view/tile-view.css" rel="stylesheet" />
+    <script src="libs/tile-view/tile-view.js"></script>
+    <script src="libs/xaringanExtra-progressBar/progress-bar.js"></script>
+    <link rel="stylesheet" href="css/My-CN-fonts-new.css" type="text/css" />
+    <link rel="stylesheet" href="css/newmtheme-logo.css" type="text/css" />
+    <link rel="stylesheet" href="css/addcolors.css" type="text/css" />
+    <link rel="stylesheet" href="css/cols.css" type="text/css" />
+  </head>
+  <body>
+    <textarea id="source">
+class: center, middle, inverse, title-slide
+
+.title[
+# <strong>Data Science &amp; AI for Economists</strong>
+]
+.subtitle[
+## <em>Lecture 0: Introduction</em>
+]
+.author[
+### <strong>Zhaopeng Qu</strong>
+]
+.institute[
+### <strong>Business School,Nanjing University</strong>
+]
+.date[
+### September 19 2024
+]
+
+---
+
+
+class: inverse, center, middle
+
+# Introduction to Data Science and AI 
+
+
+<style>.xe__progress-bar__container {
+  bottom:0;
+  opacity: 1;
+  position:absolute;
+  right:0;
+  left: 0;
+}
+.xe__progress-bar {
+  height: 0.25em;
+  background-color: #0051BA;
+  width: calc(var(--slide-current) / var(--slide-total) * 100%);
+}
+.remark-visible .xe__progress-bar {
+  animation: xe__progress-bar__wipe 200ms forwards;
+  animation-timing-function: cubic-bezier(.86,0,.07,1);
+}
+@keyframes xe__progress-bar__wipe {
+  0% { width: calc(var(--slide-previous) / var(--slide-total) * 100%); }
+  100% { width: calc(var(--slide-current) / var(--slide-total) * 100%); }
+}</style>
+
+
+
+---
+
+# Case #1: Alternative economic indicators
+
+- **Question**: How do we measure a country's economic performance without published or convincing statistic, like North Korea?
+
+- **Answer**: Use alternative indicators, such as satellite images of nighttime lights, to estimate economic activity.
+
+
+
+
+
+
+---
+
+# Case #1: Alternative economic indicators
+
+&lt;div class="figure" style="text-align: center"&gt;
+&lt;img src="Figs/NTL.png" alt="Night Light in NK(NASA,2023)" width="90%" /&gt;
+&lt;p class="caption"&gt;Night Light in NK(NASA,2023)&lt;/p&gt;
+&lt;/div&gt;
+
+]
+
+---
+
+# Case #2: Measuring the intensity of a policy
+
+--
+
+.pull-left[    
+    
+- How to measure the intensity of a policy, such as the COVID-19 lockdown policy in China?
+  
+- As is well known, there is huge difference for the intensity of the COVID-19 lockdown policy in China across regions and time. 
+
+
+
+]
+
+
+--
+
+.pull-right[
+
+&lt;div class="figure" style="text-align: center"&gt;
+&lt;img src="Figs/covid19.png" alt="Gong et al(2024)" width="100%" /&gt;
+&lt;p class="caption"&gt;Gong et al(2024)&lt;/p&gt;
+&lt;/div&gt;
+
+]
+
+---
+
+# Cases #3: Collecting information from documents
+
+--
+
+.pull-left[    
+
+  
+-  Information (data) recorded for a long time in terms of documents, papers, books and other forms.  
+
+-  Traditional way to collect data from old documents is by-hands. 
+
+]
+
+.pull-right[
+
+
+&lt;div class="figure" style="text-align: center"&gt;
+&lt;img src="Figs/archives.png" alt="Dell(2020)" width="100%" /&gt;
+&lt;p class="caption"&gt;Dell(2020)&lt;/p&gt;
+&lt;/div&gt;
+  
+]
+
+
+---
+
+# New Questions need new tools and skills
+
+--
+
+- New data sources and neew data types are emerging, which make social science research more challenging and exciting.
+
+--
+
+- It requires new tools and skills to obtain, process, analyze and visualize various data.
+
+--
+
+- It is the job of .hi-pink[**Data Science**].
+
+---
+
+# What is the Data Science?
+
+- **Data Science** is an .hi-red[interdisciplinary] academic field that compromises mainly concepts from statistics, computer science, and information science, etc.
+
+--
+
+- Although scientist have always relied on data to test their theories and make predictions,the term "Data Science" has only recently become popular during the last decade.
+
+
+--
+
+&lt;div class="figure" style="text-align: center"&gt;
+&lt;img src="Figs/google.png" alt="Google Trends" width="84%" /&gt;
+&lt;p class="caption"&gt;Google Trends&lt;/p&gt;
+&lt;/div&gt;
+
+---
+
+# What is the Data Science?
+
+.pull-left[    
+
+&lt;div class="figure" style="text-align: center"&gt;
+&lt;img src="Figs/Peternaur.jpg" alt="Peter Naur(1928-2016)" width="40%" /&gt;
+&lt;p class="caption"&gt;Peter Naur(1928-2016)&lt;/p&gt;
+&lt;/div&gt;
+
+- Danish computer scientist,Turing Award winner(2005)
+
+- Firstly coined the term "Data Science" in 1960s. 
+
+]
+
+--
+
+
+.pull-right[    
+
+&lt;div class="figure" style="text-align: center"&gt;
+&lt;img src="Figs/william.jpeg" alt="William S. Cleveland(1943-)" width="35%" /&gt;
+&lt;p class="caption"&gt;William S. Cleveland(1943-)&lt;/p&gt;
+&lt;/div&gt;
+
+- American Computer Scientist and Statistician, 
+
+- Formally defining and naming the field of Data Science in 2001. 
+
+]
+
+---
+
+# What is the Data Science?
+
+
+.pull-left[    
+
+&lt;div class="figure" style="text-align: center"&gt;
+&lt;img src="Figs/Joshua.jpg" alt="Joshua Angrist(1960-)" width="70%" /&gt;
+&lt;p class="caption"&gt;Joshua Angrist(1960-)&lt;/p&gt;
+&lt;/div&gt;
+
+- American Economist and Professor at MIT
+
+- 2021 Nobel Prize co-winner
+
+]
+
+
+
+--
+
+.pull-right[    
+
+&gt;"One thing I always say is(that) **econometrics is the original data science**. Before there was data science, there was econometrics." in an public interview at 2021 on [Youtube](https://www.youtube.com/watch?v=T24j8XTcpe0).
+
+]
+
+---
+
+# What is the Data Science?
+
+
+.pull-left[    
+
+&lt;div class="figure" style="text-align: center"&gt;
+&lt;img src="Figs/hadley.png" alt="Hadley Wickham(Posit)" width="60%" /&gt;
+&lt;p class="caption"&gt;Hadley Wickham(Posit)&lt;/p&gt;
+&lt;/div&gt;
+
+]
+
+--
+
+
+.pull-right[    
+.font90[
+
+
+- **Committee of Presidents of Statistical Societies(COPSS) Presidents' Award** winner(2019).
+- Chief Scientist at **Posit**(Former named as RStudio).
+- One of Leading figure in the field of Data Science with some most popular packages in R.
+
+  - **ggplot2** and **tidyverse**.
+]
+
+.font100[
+
+&gt;"Data science is an exciting discipline that allows you to transform raw data into understanding, insight, and knowledge." in *R for Data Science(2e)*.
+]
+]
+
+
+---
+
+# What is the Data Science?
+
+- **My Own View**
+
+--
+
+&gt;"All knowledge and skills of gaining and communicating insights from complex data through digital techniques. It is a blend of principles, algorithms, and systems to extract knowledge and insights from structured and unstructured data."
+
+--
+
+- Main contents of Data Science:
+
+  - **Data Collection**: surveys, sensors, web scraping and OCR etc. 
+  
+--
+  
+  - **Data Wrangling** : cleaning, transforming, merging,filtering, aggregating, and summarizing.
+
+--
+
+  - **Data Analysis**  : descriptive statistics, causal inference, and predictive analytics.
+
+--
+  - **Data Visualization** : graphs, charts, and maps.
+
+--
+
+  - **Data Communication** : reports, dashboards, and presentations
+
+--
+
+- As a student that analyzes data, most of it you do already. However...
+
+
+???
+
+-  there is no such a course that systematically teaches you how to do it.
+
+
+
+---
+
+# What is Artificial Intelligence (AI)?
+
+- **AI**, thus the *Artificial Intelligence*, is a field of computer science that aims to create machines that can perform tasks that typically require human intelligence.
+
+--
+
+- **Many Areas**:
+  
+  - Machine Learning
+  - Natural Language Processing (NLP)
+  - Computer Vision
+  - Robotics
+  - Expert Systems
+
+--
+
+
+- The most influential breakthrough in AI recently is in the space of .hi-pink[**Generative AI**] models or the .hi-pink[**Large Language Models**(LLM)]
+
+--
+
+  - which are designed to create text or other forms of media based on patterns and examples they have been trained on such as **ChatGPT** and many others.
+
+
+--
+- It is dramatically changing the lives of human beings, and so is how we do research.
+
+
+
+???
+
+- open sources or company own  
+
+- Open and free or closed and paid
+
+- local or online 
+
+- general or specific
+
+- domestic or international
+
+
+
+---
+
+class: inverse, center, middle
+
+# Why Economics need Data Science and AI 
+
+---
+
+# Revolutions in Social Science 
+
+- Social sciences(*firstly started by Economics*) have experienced two methodological **revolutions** over the past few decades. 
+
+--
+
+.pull-left[   
+
+- .hi-pink[**No.1: Credibility Revolution**]
+
+  - A movement that emphasizes the goal of obtaining secure causal inferences in social sciences.(Angrist and Pischke, 2010)
+  
+  - The revolution started from around the 1990s, pioneering in economics, then spread over to other empirical social sciences such as sociology, political science, education, public policy, etc., which has entirely changed empirical social science and business research.
+
+]
+
+
+.pull-right[   
+
+&lt;img src="Figs/NewNoble1.png" width="80%" style="display: block; margin: auto;" /&gt;
+    
+]
+
+
+???
+
+- Before the revolution, researchers frequently relied on attempts to statistically model the world to make inferences from observational data.
+
+    - In essence, they would rely heavily on ex post statistical analysis to make causal inferences. Now we have acknowledged that this is not a "real" causal inference.
+    
+- The revolution centered around the idea that the only way to truly account for possible sources of bias is to remove the influence of all confounders ex ante through better research design.
+
+    - Thus, since the revolution, researchers have attempted to design studies around sources of random or as-if random variation, either with experiments or what have become known as **quasi-experimental** designs.
+
+- The revolution started from around 1990s pioneering in economics then spread over other empirical social sciences such as sociology, political science, education, legal studies, etc, which has entirely changed empirical social science.
+
+
+
+---
+
+# Revolutions in Social Science 
+
+.pull-left[
+
+&lt;div class="figure" style="text-align: center"&gt;
+&lt;img src="Figs/CR1.png" alt="Key words for CR" width="95%" /&gt;
+&lt;p class="caption"&gt;Key words for CR&lt;/p&gt;
+&lt;/div&gt;
+
+]
+
+
+--
+
+.pull-right[
+
+&lt;div class="figure" style="text-align: center"&gt;
+&lt;img src="Figs/CR2.png" alt="Quasi-experimental methods" width="100%" /&gt;
+&lt;p class="caption"&gt;Quasi-experimental methods&lt;/p&gt;
+&lt;/div&gt;
+
+]
+
+
+--
+
+- [Currie, J., Kleven, H., &amp; Zwiers, E. (2020). Technology and Big Data Are Changing Economics: Mining Text to Track Methods. AEA Papers and Proceedings, 110, 42–48](https://doi.org/10.1257/pandp.20201058)
+
+
+---
+
+# Revolutions in Social Science 
+
+--
+
+.pull-left[   
+
+- .hi-pink[**No.2: Big Data Revolution**]
+
+  - A movement that emphasizes that how our increasing ability to produce, collect, store and analyze vast amounts of data is going to transform our understanding of the human affairs. (Schonberger, 2013)
+
+&lt;img src="Figs/Schonberger.png" width="90%" style="display: block; margin: auto;" /&gt;
+
+
+]
+
+--
+
+.pull-right[   
+
+- Data sources and types are changing, which makes new methods to obtain, process, analyze and visualize data necessary.
+
+&lt;div class="figure" style="text-align: center"&gt;
+&lt;img src="Figs/CR3.png" alt="Currie, J et al(2020)" width="90%" /&gt;
+&lt;p class="caption"&gt;Currie, J et al(2020)&lt;/p&gt;
+&lt;/div&gt;
+
+]
+
+???
+
+
+
+- The name of Big Data comes from computer scientists working to do aggregation on data that is too big to fit on a single machine.
+
+- The Big Data presents exciting opportunities for the study of social science, but at the same time its size and heterogeneity present significant challenges.
+
+- Big Data analytic tools are highly correlated with econometrics
+
+    - partially straight out of previous statistics and econometrics classes(Cluster, Regression and Matching)
+    - some are totally new(such as decision trees and neural networks)
+
+---
+
+# Revolutions in Social Science
+
+- Now we are facing the third revolution in social science: .hi-pink[**No.3: AI Revolution**].
+
+--
+
+.pull-left[
+
+
+&lt;img src="Figs/GPT2.png" width="95%" style="display: block; margin: auto;" /&gt;
+
+  
+]
+
+--
+
+.pull-right[
+
+    
+&lt;img src="Figs/GPT1.png" width="95%" style="display: block; margin: auto;" /&gt;
+
+
+]
+
+
+- [Korinek, A. (2023). Generative AI for Economic Research: Use Cases and Implications for Economists. Journal of Economic Literature, 61(4), 1281–1317](https://doi.org/10.1257/jel.20231736)
+
+- The ability of the AI model is still quickly evolving and upgrading.
+
+
+---
+
+# Why Economics needs Data Science and AI
+
+
+--
+
+.pull-left[
+
+- Economics and Data Science have many in common
+
+  - require strong analytical skills
+  - rely heavily on data and statistical analysis
+  - need domain knowledge to interpret results
+
+]
+
+
+--
+
+
+.pull-right[
+
+- The main difference between Economics and Data Science
+
+1. Data collection and processing 
+
+  - Econ: more **structured** and **cleaned** 
+  - DS: more **unstructured** and **messy**
+  
+2. methods and tools
+
+  - Econ: more **theoretical** and **causal inference** 
+  - DS: more **practical** and **prediction**
+  
+]
+
+---
+
+# Why Economics needs Data Science and AI
+
+- Data Science can be seen as a **complement** to Economics, providing new tools and methods to analyze data and extract insights that may not be possible with traditional econometric methods alone.
+
+--
+
+- Economics theory and Econometrics methods can also provide a **foundation** for Data Science, helping to guide the analysis and interpretation of data. 
+
+--
+
+- The combination of Economics and Data Science can lead to more **robust** and **comprehensive** analyses that can provide valuable insights into complex economic and social issues.
+
+--
+
+- **AI revolution** especially the GAI or LLM models are the result of the developing combination of Social Science, Data Science and Computer Science.
+
+--
+
+- It is dramatically changing the way we do research in Economics and Data Science 
+
+  - With the help with AI tools, we can finish the work in Data Science and Economics more .hi-pink[efficiently and accurately].
+
+
+---
+
+
+# Economics and Data Science Everywhere 
+
+--
+
+- Many double-majored programs in **Economics and Data Science** on both undergraduate and graduate levels have been established in many universities worldwide during the past 5 years 
+
+  - "The .hi-pink[most popular] double major in UC Berkeley"
+
+--
+  
+- Many programs in Economics at top universities also provide the courses in Data Science and AI for their students.  
+  
+ - MIT, Harvard,Stanford, Chicago,and UC Berkeley etc.
+
+--
+
+.pull-left[
+
+&lt;div class="figure" style="text-align: center"&gt;
+&lt;img src="Figs/berkeley.png" alt="@UCBerkeley" width="60%" /&gt;
+&lt;p class="caption"&gt;@UCBerkeley&lt;/p&gt;
+&lt;/div&gt;
+
+]
+
+
+--
+
+.pull-right[
+
+&lt;div class="figure" style="text-align: center"&gt;
+&lt;img src="Figs/HH.png" alt="@Standford" width="66%" /&gt;
+&lt;p class="caption"&gt;@Standford&lt;/p&gt;
+&lt;/div&gt;
+
+]
+
+
+
+
+---
+
+# The Most Popular undergraduate course 
+
+--
+
+.pull-left[   
+
+#### Top 3 in Harvard University
+
+- **Economics 10b**: "Principles of Economics" 
+
+- **Life Sciences 1b**: "An Integrated Introduction to the Life Sciences"
+
+- **Economics 1152**: "[Using Big Data to Solve Economic and Social Problems](https://opportunityinsights.org/course/)"
+
+]
+
+--
+
+.pull-right[   
+
+&lt;div class="figure" style="text-align: center"&gt;
+&lt;img src="Figs/chetty.png" alt="Raj Chetty" width="80%" /&gt;
+&lt;p class="caption"&gt;Raj Chetty&lt;/p&gt;
+&lt;/div&gt;
+
+]
+
+
+
+
+
+
+???
+
+- It is overwhelming in all applied field today such as Labor, Development, Industrial, Public and International Trade, etc.
+
+
+
+---
+
+class: inverse, center, middle
+
+# Who'd better take the course?
+
+
+---
+
+# Who' d better take the course?
+
+### The Purpose of the course
+
+--
+
+- Introduce you the foundational concepts of data science and artificial intelligence, emphasizing their .hi-red[practical applications] in economics and social sciences.
+
+--
+
+- Unlike traditional econometrics courses, the focus is to learn some new tools and methods that can develop your ability to work with .hi-red[non-traditional] economic data.
+
+--
+
+- The course is designed to be accessible to students with a wide range of backgrounds, including those with .hi-red[little or no prior experience] in data science or economics.
+
+--
+
+- Help yourself enjoy to learn some new ideas in an empirical social scientist's mindset.
+
+---
+
+# Why take the course?
+
+###  For those pursuing an academic career: 
+
+--
+
+.pull-left[   
+
+&lt;div class="figure" style="text-align: center"&gt;
+&lt;img src="Figs/T2.png" alt="Angrist et al(2017)" width="90%" /&gt;
+&lt;p class="caption"&gt;Angrist et al(2017)&lt;/p&gt;
+&lt;/div&gt;
+
+]
+
+--
+
+.pull-right[   
+
+&lt;div class="figure" style="text-align: center"&gt;
+&lt;img src="Figs/T3.png" alt="Angrist et al(2017)" width="90%" /&gt;
+&lt;p class="caption"&gt;Angrist et al(2017)&lt;/p&gt;
+&lt;/div&gt;
+
+]
+
+--
+
+- The proportion of empirical studies in economics is .hi-pink[increasing more and more].
+
+---
+
+# Why take the course? 
+
+### Who want to enter the industry job market
+
+--
+
+- Who want to work in industry: mastering econometrics may help you .hi-pink[get a good job!]
+
+--
+
+- A lot of internet giants even hire economists to lead their special R&amp;D department. Such as 
+
+    - Google,Microsoft,eBay,Baidu,Alibaba,Tencent,Tiktok
+
+--
+
+- .hi-pink[Data Scientist] is the hottest job in consulting, business areas as well as financial industry right now.
+
+
+
+---
+
+# Why take the course? 
+
+### The Change of EcoPhD Job Markets in the US by The Economist
+
+
+&lt;div class="figure" style="text-align: center"&gt;
+&lt;img src="Figs/EconPhD.jpeg" alt="Economist(2023)" width="50%" /&gt;
+&lt;p class="caption"&gt;Economist(2023)&lt;/p&gt;
+&lt;/div&gt;
+
+
+
+
+
+---
+
+# Why take the course? 
+
+### Who want to enter industry job market: Apple Job Wanted
+
+
+--
+
+.pull-left[   
+
+&lt;img src="Figs/Apple2.png" width="90%" style="display: block; margin: auto;" /&gt;
+
+]
+
+
+--
+
+
+.pull-right[   
+
+&lt;img src="Figs/Apple3.png" width="100%" style="display: block; margin: auto;" /&gt;
+
+]
+
+---
+
+# Why take the course? 
+
+### Who want to enter industry job market: ByteDance Job Wanted
+
+
+--
+
+.pull-left[   
+
+&lt;img src="Figs/bytedance1.png" width="120%" style="display: block; margin: auto;" /&gt;
+
+]
+
+
+--
+
+
+.pull-right[   
+
+&lt;img src="Figs/bytedance2.png" width="80%" style="display: block; margin: auto;" /&gt;
+
+]
+
+
+---
+
+# Why take the course? 
+
+### Who find a job in public sectors(shang'an movement)
+
+
+--
+
+.pull-left[   
+
+&lt;img src="Figs/shangan.png" width="110%" style="display: block; margin: auto;" /&gt;
+[Source:SCMP](https://www.scmp.com/economy/china-economy/article/3143030/chinas-job-scarcity-sees-fresh-grads-shun-private-sector)
+
+]
+
+--
+
+.pull-right[   
+
+- To be honest with you, the course does not help you succeed in the examination.
+
+- However, in the long run, it provides valuable knowledge and skills that offers a broader vision and abilities.
+
+- It ultimately benefits your career, as well as our people, our country, and the world.
+
+]
+
+
+
+???
+
+
+- 每年中国有成百上千的公共政策项目在实施，涉及的资金达少说几十亿，多说上千亿，但评估尤其是科学评估的项目很少很少。
+
+- 根据我自己参加相关项目研究的经验，主要有如下的原因
+
+    - 政府官员主观上不愿意进行第三方评估。
+    - 政府官员缺乏必要的知识。
+
+- 你们是中国未来的精英和栋梁，如果有机会"为人民服务"，至少不要因为无知而不尊重科学。
+
+
+---
+
+# Why take the course? 
+
+### Who look for fun
+
+
+--
+
+- The course could not be a boring and demanding variant of a mathematics course, but an interesting and enjoyable class.
+
+--
+
+- Help yourself enjoy life by adopting an empiricist's mindset in your daily activities.
+
+    - novel ideas or new perspectives on our world.
+
+--
+
+- Also covering several interesting and insightful stories like
+
+  - Eg. .hi-pink[Crime and Abortion] in _Freakonomics_ written by Steven Levitt. 
+
+  - Eg. What is .hi-pink[the economic value] to be the president's son(or daughter)? in _Economic Gangster_ written by Raymond Fisman and Edward Miguel.
+
+
+---
+
+# Whoever and Whatever you want to be
+
+--
+
+## Whoever you would like to be or whatever you want
+
+--
+
+.pull-left[   
+
+&lt;img src="Figs/jobs.jpg" width="65%" style="display: block; margin: auto;" /&gt;
+- .hi-red[Every choice you make has an opportunity cost,try your best to make a wise one]. 
+
+
+]
+
+--
+
+.pull-right[   
+
+&lt;img src="Figs/Gandi.jpg" width="120%" style="display: block; margin: auto;" /&gt;
+- .hi-red[Enjoy doing something seriously and cultivate a special quality for yourself!]
+
+]
+
+
+---
+
+# Hard and Soft Skills
+
+
+### You COULD learn or improve several important skills during your college.
+
+
+--
+
+.pull-left[   
+
+- .hi-pink[Hard Skills]
+
+    - **Language** 
+
+    - **Computer**
+    
+    - **Presentation and Writing**
+
+]
+
+--
+
+.pull-right[   
+
+- .hi-pink[Soft Skills]
+
+    - **Critical Thinking**
+
+    - **Teamwork**
+
+]
+
+
+--
+
+- .font110[
+Fortunately, you could learn/practice almost all above skills in our class.]
+
+
+---
+
+# Wrap up
+
+.font120[
+
+- In essence, DSAI is an .hi-pink[cutting-edge and intriguing yet challenging] course.
+{{content}}
+
+]
+
+--
+
+    - **Please consider carefully before enrolling**
+{{content}}
+
+--
+
+    - **Once committed,please work hard on it!**
+{{content}}
+--
+
+    - **And remember, enjoy the process of working hard!**
+
+
+
+---
+
+class: inverse, center, middle
+
+# Course Logistics
+
+---
+
+# About Me and the Course
+
+--
+
+- My name is [Zhaopeng Qu(曲兆鹏)](https://byelenin.github.io/)
+
+  - Position and Affiliation:Associate Professor, Institute of Population Studies, Business School. 
+  - Research Fields: Labor Economics and Applied Econometrics
+  - Office: Room 2017, Anzhong Building
+  - Tel: 83621349;Email: qu@nju.edu.cn
+
+--
+
+- 南京大学"人工智能"建设系列课程：
+
+--
+
+  - *专业选修课* for 2nd/3rd year undergraduate students in Economics or other social sciences.
+
+--
+
+  - Welcome other students who are interested in the course.
+  
+--
+
+  - 2024年秋季.hi-red[第一次开课!], so everything is new and fresh.
+
+--
+
+- **Course Website**: [(https://byelenin.github.io/DSAI_2024/)](https://byelenin.github.io/DSAI_2024/)
+
+
+---
+
+# Prerequisite and Procedures
+
+
+- Although there is no formal prerequisite for the course, I .hi-pink[**recommend**] that you' d better take at least one course in .hi-blue[**Statistics**], .hi-blue[**Data Analysis**] or .hi-blue[**Econometrics**].
+
+--
+
+- And I assume that you should be **comfortable** to .hi-pink[dealing with data] and .hi-pink[coding experiences] by using .hi-pink[Python/R/Stata].
+
+--
+
+.pull-left[    
+
+- The First Part: .hi-pink[Lectures by the instructor]
+
+  - Introduce the underlying theoretical concepts briefly and focus on applications heavily. 
+
+  - Provide some specific examples in classical papers in the topics.
+
+  - Normally, everyone who take the course is .hi-red[required attending the class].  
+
+]
+
+--
+
+.pull-right[    
+
+- The Second Part: .hi-pink[Coding practices in and after the class]
+
+  - Hands-on coding sessions to apply theoretical concepts.
+
+  - Use of real-world datasets for practical experience.
+
+  - Encourage collaboration and discussion among peers.
+
+]
+
+---
+
+# Course Overview
+
+.pull-left[
+
+- Basic Tools 
+
+   - Github,IDE and AI tools
+   
+- Introduction to R and Python for Data Analysis
+
+   - Data wrangling, visualization, and analysis
+
+- Topic1: Spatial Data Analysis
+
+   - Mapping, geocoding, and basic spatial analysis
+   - NASA: Nightlight Data
+
+]
+
+
+--
+
+.pull-right[
+
+- Topic 2: Web Scraping and Text Analysis
+
+   - Scraping websites, analyzing text data
+   - Text recognition and sentiment analysis
+
+- Topic 3: OCR and Image Analysis
+
+   - Extracting text from images, analyzing image data
+   - Image recognition and classification
+
+]
+
+---
+
+# Evaluation
+
+--
+
+- The final grade will be based on the following components:
+
+   - **Class Participation(10%)**
+   - **Proposals Presentation(40%)**
+   - **Team Project Presentation(30%)**
+   - **Final Report(20%)**
+
+--
+
+- About .hi-pink[Team Projects and Proposals]
+
+  - Students are required to form a team of **2-3** members to work on a research proposal.
+
+  - **Midterm Presentations**: a presentation of the proposal.
+  
+  - **Final Presentations**: a presentation of the preliminary results.
+  
+  - **Final Report**: a final report of the project. 
+
+
+---
+
+# Textbooks
+
+- There are **NO** required textbooks for the course.However, the following textbooks are useful for reference:
+
+--
+
+.pull-left[    
+
+&lt;img src="Figs/R4DScover.jpg" width="50%" style="display: block; margin: auto;" /&gt;
+
+- [R for Data Science](https://r4ds.hadley.nz) by Hadley Wickham,Mine Cetinkaya-Rundel and Garrett Grolemund(2e)
+
+
+]
+--
+
+.pull-right[    
+
+&lt;img src="Figs/DS_Python.png" width="55%" style="display: block; margin: auto;" /&gt;
+
+- [Hands-on Introduction to Data Science](https://florian-huber.github.io/data_science_course/book/cover.html) with Python by Florian Huber
+
+]
+
+
+---
+
+# Computing Tools
+
+- The main computing tools used in the course are **Python/R**, optionally.
+
+--
+
+.pull-left[    
+
+- **R**
+
+  - Pro
+
+  - Con
+
+
+]
+ 
+
+--
+ 
+.pull-right[    
+
+- **Python**
+
+  - Pro
+
+  - Con
+
+]
+
+--
+
+- If your coding experience is limited to **Stata**, there's no need to worry.
+
+--
+
+  - I am currently learning **Python** and **R** as a beginner, and we can learn together.
+
+--
+
+  - Additionally, with the assistance of .hi-pink[**AI tools**], anyone can become a proficient coder. 
+
+---
+
+# Promise and Expectation 
+
+--
+
+.pull-left[    
+
+### What I promise to offer you
+
+- Prepare lectures as well as possible.
+
+- Provide timely feedback on your projects.
+
+- Provide additional resources and references.
+
+]
+
+--
+
+.pull-right[    
+
+### What I expect to you
+
+- Class participation with a little bit aggressive attitude. 
+
+  - More questions, more scores!
+
+- Self-motivated learning by doing.
+
+  - More practices, more scores!
+
+]
+
+--
+
+- .hi-pink[A good score?]
+
+--
+
+  - **It depends on you**.
+
+
+---
+
+# Two Iron Rules
+
+--
+
+.pull-left[    
+
+&lt;img src="Figs/nocheat.jpg" width="90%" style="display: block; margin: auto;" /&gt;
+
+- .hi-pink[**Don't ever cheat on your assignments!**]
+
+]
+
+--
+
+.pull-right[    
+
+&lt;img src="Figs/red.jpg" width="100%" style="display: block; margin: auto;" /&gt;
+
+- .hi-pink[**Don't ever snitch your teachers to help political repression!**]
+
+]
+
+
+---
+
+# Welcome contact me 
+
+&lt;img src="Figs/questions.jpg" width="75%" style="display: block; margin: auto;" /&gt;
+
+
+
+---
+
+class: inverse, center, middle
+
+# An Introduction to Economic Data
+
+
+---
+
+# Two Axioms of Data Analysis
+
+--
+
+- **Axiom 1**: Any economy can be seen as a .hi-pink[stochastic process] governed by a certain probability law.
+
+    - The economy's future state is not deterministic but can be described in terms of probabilities.
+
+--
+
+- **Axiom 2**: Economic phenomena, often summarized in form of data, can be interpreted as a .hi-pink[realization] of this stochastic data generating process.
+
+    - By studying historical data, we can infer patterns, trends, and the probability distributions that describe the stochastic process, thereby gaining insights into the economy's underlying dynamics. 
+
+--
+
+- It highlights the importance of probabilistic models in economics and provides a theoretical basis to use statistical tools and models to analyze economic data.
+   
+???
+
+Axiom 1 suggests that an economy, with all its complexity and dynamics, can be modeled as a stochastic process. 
+
+- This axiom recognizes the inherent uncertainty and variability in economic activities, influenced by countless factors such as individual decisions, policy changes, external shocks, and technological advancements.
+
+Axiom 2 builds on the first axiom by stating that the economic data we observe and collect—ranging from stock prices to GDP growth rates—are not just random numbers but are manifestations or "realizations" of the underlying stochastic process that governs the economy. 
+
+- This perspective is crucial for econometric analysis, as it implies that by studying historical data, we can infer patterns, trends, and the probability distributions that describe the stochastic process, thereby gaining insights into the economy's underlying dynamics.
+
+
+---
+
+# What is Data
+
+--
+
+- Data is a collection of facts or information, which can be presented in various forms such as *numbers*, *tables*, *words*, *graphs*, *pictures*, or even *sounds* and *videos*. 
+
+--
+
+- And it can be processed and analyzed to produce knowledge and insights either by itself or after structuring, cleaning, and analysis.
+
+--
+
+- Data is most straightforward to analyze if it forms a single **data table**(a matrix). 
+
+  - It consists of **observations**(观测值) and **variables**(变量). 
+  
+  - Observations are also known as cases, or row. 
+  
+  - Variables are sometimes called features or covariates.
+
+--
+
+- Normally, in a data table the *rows are the observations*, *columns are variables*. 
+
+---
+
+# A Simple Example: CA School Data
+
+&lt;img src="Figs/Data_table1_com.png" width="80%" style="display: block; margin: auto;" /&gt;
+
+---
+# Data: Sources and Types
+
+
+### Data Sources
+
+--
+
+.pull-left[    
+
+- Traditional Collecting Methods: 
+
+    - Statistical Reports or Documents 
+    - Survey or Census
+    - Administrative Data
+    - Lab or Field Experimental Data
+
+]
+
+--
+
+.pull-right[    
+
+- Collecting Data in Digital Times:
+
+    - Online Transactions or Activities 
+    - Social Media
+    - Geolocations or Geographic Data
+    - Online Documents or Texts
+]
+
+
+---
+# Data: Sources and Types
+
+--
+
+.pull-left[    
+
+### Data Quality
+
+- Including
+
+    - Content
+    - Accuracy
+    - Completeness
+    - Consistency
+
+- .hi-pink[**Garbage in, Garbage out**]
+
+    - **Prioritize data, then methods.**
+]
+
+--
+
+.pull-left[    
+
+### Ethical and Legal Issues
+
+- Including
+
+    - Privacy and Confidentiality
+    - Data Security
+    - Data Ownership
+    - Data Sharing and Open Data
+
+]
+
+???
+
+- Content: measure the degree to which the data represents the underlying phenomenon.
+- Accuracy: measure the degree of closeness between the data and the true value.
+- Completeness: measure the degree to which all required data is present.
+- Consistency: measurement of a variable should be stable, leading to the same value if measured the same way again. 
+
+
+---
+
+# Data Types
+
+--
+
+.pull-left[
+
+### Experimental V.S. Observational Data
+
+- **Experimental** data come from experiments designed to evaluate a treatment or policy or to investigate a causal effect.
+
+
+- **Observational** data come from non-experimental settings, such as surveys,administrative records and other sources.
+
+]
+
+--
+
+.pull-right[
+
+### Data Structure
+
+  - Cross-sectional data
+  - Time series data
+  - Panel/longitudinal data
+  - Pool-cross sectional data
+
+]
+
+???
+
+- **Experimental** data are collected by randomly assigning treatments to subjects and then comparing the outcomes of the treated and untreated subjects.
+
+    - relatively randomized 
+    - Normally but not necesarrily small sample size.
+    - more clean and less noise but far from real world.
+
+- **Observational** data are collected by observing the subjects in their natural environment, without any intervention or manipulation by the researcher.
+
+    - not randomized.
+    - large sample size.
+    - close to real world but with much noise and bias.
+
+---
+# 1.Cross-Sectional Data: (Major Focus)
+
+--
+
+- Units: individuals, households, firms, cities, states, countries, etc. 
+
+--
+
+- Data on multiple agents at a single point in time
+`$$\{x_{i},y_{i}...\}_{i=1}^{N};N=Sample\,Size$$`
+
+--
+
+- Usually obtained by random sampling from the underlying population.It means 
+`$$\{x_{i},y_{i}\perp x_{j},y_{j}\},i\neq j\in N$$`
+
+--
+
+- Cross-sectional data are widely used in economics and other social sciences: 
+
+    - labor economics, public finance, industrial economics, urban economics, health economics...
+
+---
+# 1.Cross-Sectional Data: (Major Focus)
+
+&lt;img src="Figs/Data_table1.png" width="70%" style="display: block; margin: auto;" /&gt;
+
+--
+
+- **Questions?**: observations,variables,the sample size?
+--
+`$$x_i=STRatio_i;\:y_i=TestScore_i;\:N=420$$`
+---
+# 2.Time Series Data:(Minor Cover)
+
+--
+
+- Observations on a variable (or several variables) over time, thus data on a single agent at multiple points in time
+`$$\{x_{t},y_{t}...\}_{t=1}^{T};T=Sample\,Size$$`
+
+--
+
+- Examples: 
+
+  - stock prices, money supply 
+
+  - consumer price index(CPI) 
+
+  - gross domestic product(GDP) 
+
+  - automobile sales 
+
+--
+
+- Data frequency: minutes, hourly, daily, weekly, monthly, quarterly, annually. 
+
+--
+
+- Economic observations can rarely be assumed to be independent across time. So we have to account for the dependent nature of economic time series. 
+
+
+
+---
+# 2.Time Series Data:(Minor Cover)
+
+&lt;img src="Figs/Data_table2.png" width="70%" style="display: block; margin: auto;" /&gt;
+
+- **Questions?** observations,variables,the sample size?
+--
+`$$x_{t}=Date(quarter);\:y_{t}=GDP\;Growth\;Rate;\:N(T)=213$$`
+
+
+---
+
+# 3.Panel or Longitudinal Data(Minor Cover)
+
+--
+
+- Time series for each cross-sectional member in the data set, thus data on multiple agents at multiple points in time.
+
+--
+
+- The same cross-sectional units (individuals, firms, countries, etc.) are followed over a given time period. `$$\{x_{it},y{}_{it}...\}_{i=1,t=1,}^{NT}$$`
+
+--
+
+- Advantages of panel data: 
+
+    - Controlling for (time-invariant) unobserved characteristics 
+
+    - Consideration of the effects of lag variables
+
+---
+# 3.Panel(or Longitudinal) Data(Minor Cover)
+
+&lt;img src="Figs/Data_table3.png" width="50%" style="display: block; margin: auto;" /&gt;
+
+--
+
+- **Questions?**: observations,variables,the sample size?
+`$$x_{it}=Total\;Taxes_{it};\:y_{it}=Cigarette\;Sales_{it};\:N\times T=48\times11=528$$`
+---
+# 4.Pool Cross-Sectional Data(Not Cover)
+
+- Pooled cross sections can be generated by combining two or more years cross-sectional data. 
+
+--
+
+  - Cross-sectional data in each year is independent with other years. 
+
+  - While the data come from a same population in different time,the data does not necessarily track the respondent multiple times. 
+
+--
+
+- For it has both cross-sectional and time series features, so allows consideration of changes in key variables over time. 
+
+- Simple pooling may also be used when the number of observations of a single cross section is small. 
+
+--
+
+- It is widely used in: 
+
+    - Cohort studies 
+    - Difference-in-differences analyses
+    - Cross-sectional analyses
+
+
+---
+# 4.Pool Cross-Sectional Data(Not Cover)
+
+&lt;img src="Figs/Data_table4.png" width="60%" style="display: block; margin: auto;" /&gt;
+
+--
+
+- **Questions?**: observations,variables,the sample size?
+`$$x_{ijt}=hprice_{i,1993},hprice_{j,1995};y_{ijt}=proptex_{i,1993},proptex_{j,1995};\\
+N=N_{i}+N_{j}=250+270=520$$`
+---
+
+# Data Types and Sub-Econometrics
+
+--
+
+.pull-left[    
+
+### Micro-Econometrics(微观计量经济学)
+
+- Cross-Sectional
+
+- Pool Cross-Sectional 
+
+- Short Panel(large N, small T) 
+
+]
+
+
+
+
+--
+
+.pull-right[    
+
+### Macro-Econometrics(宏观计量经济学)
+
+  - Times series
+
+  - Long Panel(small N, large T)
+
+]
+
+
+### Big Data 
+
+- Large N and T
+
+- High Frequency Data
+
+- Large P thus the number of variables 
+
+
+---
+# Typical Data sets in China
+
+--
+
+.font90[
+
+.pull-left[
+
+- Survey Data
+
+  - [China Family Panel Survey(CFPS)](http://www.isss.pku.edu.cn/cfps/)
+
+  - [China Health and Retirement Longitudinal Study(CHARLS)](http://charls.pku.edu.cn)
+
+- Administrative Data: 
+
+    - Census: 全国人口普查数据；全国1%人口抽样调查
+
+    - China Industrial Survey Data: 工业企业数据库
+
+    - Chinese Custom Transaction Data 海关交易数据库
+
+    - 全国工商企业登记数据库
+
+
+]
+
+.pull-right[
+
+- Online Big Data: 
+
+    - Transaction data on Tabao,JD,Tmall(淘宝、京东、天猫...）
+
+    - Movie Data on Douban.com(豆瓣\猫眼电影数据)
+
+    - Night-Lights Data(夜间灯光数据) and Air Quality: PM2.5(空气质量数据）
+
+    - Land Transaction Markets(土地交易市场数据）
+
+    - Geolocations Data(地理位置数据）: Baidu Map, Didi, Mobike, Ofo...
+
+    - Social Media Data(微博、微信、知乎、豆瓣、贴吧、论坛、博客、新闻、评论、问答、社交网络...）
+
+]
+]
+
+
+
+
+
+
+
+
+
+    </textarea>
+<style data-target="print-only">@media screen {.remark-slide-container{display:block;}.remark-slide-scaler{box-shadow:none;}}</style>
+<script src="https://remarkjs.com/downloads/remark-latest.min.js"></script>
+<script src="css/cols_macro.js"></script>
+<script>var slideshow = remark.create({
+"highlightStyle": "github",
+"highlightLines": true,
+"countIncrementalSlides": false,
+"scroll": true,
+"slideNumber": true,
+"toc": true,
+"ratio": "16:9"
+});
+if (window.HTMLWidgets) slideshow.on('afterShowSlide', function (slide) {
+  window.dispatchEvent(new Event('resize'));
+});
+(function(d) {
+  var s = d.createElement("style"), r = d.querySelector(".remark-slide-scaler");
+  if (!r) return;
+  s.type = "text/css"; s.innerHTML = "@page {size: " + r.style.width + " " + r.style.height +"; }";
+  d.head.appendChild(s);
+})(document);
+
+(function(d) {
+  var el = d.getElementsByClassName("remark-slides-area");
+  if (!el) return;
+  var slide, slides = slideshow.getSlides(), els = el[0].children;
+  for (var i = 1; i < slides.length; i++) {
+    slide = slides[i];
+    if (slide.properties.continued === "true" || slide.properties.count === "false") {
+      els[i - 1].className += ' has-continuation';
+    }
+  }
+  var s = d.createElement("style");
+  s.type = "text/css"; s.innerHTML = "@media print { .has-continuation { display: none; } }";
+  d.head.appendChild(s);
+})(document);
+// delete the temporary CSS (for displaying all slides initially) when the user
+// starts to view slides
+(function() {
+  var deleted = false;
+  slideshow.on('beforeShowSlide', function(slide) {
+    if (deleted) return;
+    var sheets = document.styleSheets, node;
+    for (var i = 0; i < sheets.length; i++) {
+      node = sheets[i].ownerNode;
+      if (node.dataset["target"] !== "print-only") continue;
+      node.parentNode.removeChild(node);
+    }
+    deleted = true;
+  });
+})();
+// add `data-at-shortcutkeys` attribute to <body> to resolve conflicts with JAWS
+// screen reader (see PR #262)
+(function(d) {
+  let res = {};
+  d.querySelectorAll('.remark-help-content table tr').forEach(tr => {
+    const t = tr.querySelector('td:nth-child(2)').innerText;
+    tr.querySelectorAll('td:first-child .key').forEach(key => {
+      const k = key.innerText;
+      if (/^[a-z]$/.test(k)) res[k] = t;  // must be a single letter (key)
+    });
+  });
+  d.body.setAttribute('data-at-shortcutkeys', JSON.stringify(res));
+})(document);
+(function() {
+  "use strict"
+  // Replace <script> tags in slides area to make them executable
+  var scripts = document.querySelectorAll(
+    '.remark-slides-area .remark-slide-container script'
+  );
+  if (!scripts.length) return;
+  for (var i = 0; i < scripts.length; i++) {
+    var s = document.createElement('script');
+    var code = document.createTextNode(scripts[i].textContent);
+    s.appendChild(code);
+    var scriptAttrs = scripts[i].attributes;
+    for (var j = 0; j < scriptAttrs.length; j++) {
+      s.setAttribute(scriptAttrs[j].name, scriptAttrs[j].value);
+    }
+    scripts[i].parentElement.replaceChild(s, scripts[i]);
+  }
+})();
+(function() {
+  var links = document.getElementsByTagName('a');
+  for (var i = 0; i < links.length; i++) {
+    if (/^(https?:)?\/\//.test(links[i].getAttribute('href'))) {
+      links[i].target = '_blank';
+    }
+  }
+})();
+// adds .remark-code-has-line-highlighted class to <pre> parent elements
+// of code chunks containing highlighted lines with class .remark-code-line-highlighted
+(function(d) {
+  const hlines = d.querySelectorAll('.remark-code-line-highlighted');
+  const preParents = [];
+  const findPreParent = function(line, p = 0) {
+    if (p > 1) return null; // traverse up no further than grandparent
+    const el = line.parentElement;
+    return el.tagName === "PRE" ? el : findPreParent(el, ++p);
+  };
+
+  for (let line of hlines) {
+    let pre = findPreParent(line);
+    if (pre && !preParents.includes(pre)) preParents.push(pre);
+  }
+  preParents.forEach(p => p.classList.add("remark-code-has-line-highlighted"));
+})(document);</script>
+
+<script>
+slideshow._releaseMath = function(el) {
+  var i, text, code, codes = el.getElementsByTagName('code');
+  for (i = 0; i < codes.length;) {
+    code = codes[i];
+    if (code.parentNode.tagName !== 'PRE' && code.childElementCount === 0) {
+      text = code.textContent;
+      if (/^\\\((.|\s)+\\\)$/.test(text) || /^\\\[(.|\s)+\\\]$/.test(text) ||
+          /^\$\$(.|\s)+\$\$$/.test(text) ||
+          /^\\begin\{([^}]+)\}(.|\s)+\\end\{[^}]+\}$/.test(text)) {
+        code.outerHTML = code.innerHTML;  // remove <code></code>
+        continue;
+      }
+    }
+    i++;
+  }
+};
+slideshow._releaseMath(document);
+</script>
+<!-- dynamically load mathjax for compatibility with self-contained -->
+<script>
+(function () {
+  var script = document.createElement('script');
+  script.type = 'text/javascript';
+  script.src  = 'https://mathjax.rstudio.com/latest/MathJax.js?config=TeX-MML-AM_CHTML';
+  if (location.protocol !== 'file:' && /^https?:/.test(script.src))
+    script.src  = script.src.replace(/^https?:/, '');
+  document.getElementsByTagName('head')[0].appendChild(script);
+})();
+</script>
+  </body>
+</html>

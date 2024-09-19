@@ -1,0 +1,133 @@
+@import url(https://fonts.googleapis.com/css?family=Zilla+Slab:300,300i,400,400i,500,500i,700,700i);
+
+/* Create a highlighted class called 'hi'  */
+.hi {
+  font-weight: 600;
+  color: #e64173 !important;
+}
+.hi-pink {
+  font-weight: 600;
+  color: #e64173 !important;
+}
+.hi-slate {
+  font-weight: 600;
+  color: #314f4f !important;
+}
+.hi-turquoise {
+  font-weight: 600;
+  color: #44C1C4 !important;
+}
+.hi-purple {
+  font-weight: 600;
+  color: #6A5ACD !important;
+}
+.hi-orange {
+  font-weight: 600;
+  color: #FFA500 !important;
+}
+.hi-yellow{
+  font-weight: 600;
+  color: #D8BD44 !important;
+}
+.hi-green {
+  font-weight: 600;
+  color: #7CAE96 !important;
+}
+.hi-grey {
+  font-weight: 600;
+  color: #8AA19E !important;
+}
+.hi-blue {
+  font-weight: 600;
+  color: #3b3b9a !important;
+}
+.hi-red {
+  font-weight: 600;
+  color: #fb6107 !important;
+}
+/* Pink text */
+.pink {
+  color: #e64173 !important;
+}
+/* Slate ("darkslategrey") text */
+.slate {
+  color: #314f4f !important;
+}
+/* Turquoise ("lightseagreen") text */
+.turquoise {
+  color: #44C1C4 !important;
+}
+/* Purple-ish ("slateblue") text */
+.purple {
+  color: #6A5ACD !important;
+}
+/* Orange ("orange") text */
+.orange {
+  color: #FFA500 !important;
+}
+.yellow{
+  color: #D8BD44 !important;
+}
+.green {
+  color: #7CAE96 !important;
+}
+.grey {
+  color: #8AA19E !important;
+}
+.blue {
+  color: #3b3b9a !important;
+}
+.red {
+  color: #fb6107 !important;
+}
+
+/* Grey text */
+.grey-mid {
+  color: #7f7f7f !important;
+}
+.grey-light {
+  color: #d2d2d2 !important;
+}
+.grey-vlight {
+  color: #e5e5e5 !important;
+}
+/* White text */
+.white {
+  color: #ffffff !important;
+}
+.black {
+  color: #000000 !important;
+}
+
+.bw {
+  background-color: rgb(0, 0, 0);
+  color: #ffffff;
+}
+.gw {
+  background-color: #d2d2d2;
+  color: #ffffff;
+}
+
+/* Mono-spaced font */
+.mono {
+  font-family: monospace;
+}
+/* Underline */
+.ul {
+  text-decoration: underline;
+}
+/* Overline */
+.ol {
+  text-decoration: overline;
+}
+.st {
+  text-decoration: line-through;
+}
+/* Bold */
+.b {
+  font-weight: bold;
+}
+/* Italic */
+.it {
+  font-style: italic;
+}

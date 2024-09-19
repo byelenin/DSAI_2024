@@ -1,0 +1,62 @@
+@font-face {
+  font-family: 'Yanone Kaffeesatz';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Yanone Kaffeesatz Regular'), local('YanoneKaffeesatz-Regular'),
+       url('https://github.com/yihui/xaringan/releases/download/v0.1/yanone-kaffeesatz.woff') format('woff');
+}
+@font-face {
+  font-family: 'Droid Serif';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Droid Serif'), local('DroidSerif'),
+       url('https://github.com/yihui/xaringan/releases/download/v0.1/droid-serif.woff') format('woff');
+}
+@font-face {
+  font-family: 'Source Code Pro';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Source Code Pro'), local('SourceCodePro-Regular'),
+       url('https://github.com/yihui/xaringan/releases/download/v0.1/source-code-pro.woff') format('woff');
+}
+
+/* yantramanav-regular - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: 'Yantramanav';
+  font-style: normal;
+  font-weight: 400;
+  src: url('../Fonts/yantramanav-v11-latin-regular.ttf') format('truetype'); /* Safari, Android, iOS */
+}
+
+
+/* Latin Modern Roman Demi */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: 'Latin Modern Roman Demi';
+  font-style: normal;
+  font-weight: 400;
+  src: url('../Fonts/Imroamndemi10-regular.otf') format('truetype'); /* Safari, Android, iOS */
+}
+
+/* Latin Modern Roman Demi */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: 'Latin Modern Roman Demi';
+  font-style: italic;
+  font-weight: 400;
+  src: url('../Fonts/Imroamndemi10-oblique.otf') format('truetype')/* Safari, Android, iOS */
+
+}
+
+
+
+
+
+
+body {font-family: 'Droid Serif', 'Palatino Linotype', 'Book Antiqua', Palatino, 'Songti SC', serif; }
+h1, h2, h3 {
+  font-family: 'Volkhov', 'Palatino Linotype', 'Book Antiqua', Palatino, 'STHeiti', 'SimHei', 'Microsoft YaHei';
+  font-weight: normal;
+}
+.remark-code, .remark-inline-code { font-family: 'Source Code Pro', 'Lucida Console', Monaco, monospace; }

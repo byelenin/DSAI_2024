@@ -17,19 +17,19 @@ output:
 }
 </style>
 ```
-| Week | Date | Topic                                                                   |                                               Slides                                               |
+| Week | Date  | Topic                                                                                                       |         Slides         |
 |:----------------:|:-----------------|:-----------------|:-----------------:|
-|  3   | 9/19 | Introduction to course content, Data Science, AI and Economics, Introduction to basic data analysis process                                                          |         [Lec0]         |
-|  4   | 9/26  | Introduction to basic AI tools: Copilot (ChatGPT) Github(Copilot) and Other AI tools|         [Lec1]       |
-|  5   | 10/3 | Introduction to R and Python |          [Lec2])     |
-|  6   | 10/10 | Introduction to R and Python |         [Lec3])                |
-|  7   | 10/17 | Introduction to spatial data and GIS analysis: Using NASA night light data as an example                               |         [Lec4]          |
-|  8   | 10/24 | Introduction to spatial data and GIS analysis: Using NASA night light data as an example                                    |         [Lec5])          |
-|  9   | 10/31 | Research Project Proposal Presentations                         |    Students Presentations        |
-|  10   | 11/7 |  Web scraping and text analysis: Based on Baidu search (or Sina Weibo)   |   [Lec6]        |                             |       |
-|  11   | 11/14  | Web scraping and text analysis: Based on Baidu search (or Sina Weibo)                               |   [Lec7]        |
-|  12  | 11/21  | OCR and text recognition: Based on Baidu PaddlePaddle platforms   |   [Lec8]        |                                               
-|  13  | 11/28 | OCR and text recognition: Based on Baidu PaddlePaddle platform                                           |   [Lec9]        |     
-|  14  | 12/5 |  Research Project Report Presentations  |   Students Presentations        |
+|  3   | 9/19  | Introduction to course content, Data Science, AI and Economics, Introduction to basic data analysis process |        [Lec0](DSAI_Lec0_2024_Short.htm)        |
+|  4   | 9/26  | Introduction to basic AI tools: Copilot (ChatGPT) Github(Copilot) and Other AI tools                        |        \[Lec1\]        |
+|  5   | 10/3  | Introduction to R and Python                                                                                |       \[Lec2\])        |
+|  6   | 10/10 | Introduction to R and Python                                                                                |       \[Lec3\])        |
+|  7   | 10/17 | Introduction to spatial data and GIS analysis: Using NASA night light data as an example                    |        \[Lec4\]        |
+|  8   | 10/24 | Introduction to spatial data and GIS analysis: Using NASA night light data as an example                    |       \[Lec5\])        |
+|  9   | 10/31 | Research Project Proposal Presentations                                                                     | Students Presentations |
+|  10  | 11/7  | Web scraping and text analysis: Based on Baidu search (or Sina Weibo)                                       |        \[Lec6\]        |
+|  11  | 11/14 | Web scraping and text analysis: Based on Baidu search (or Sina Weibo)                                       |        \[Lec7\]        |
+|  12  | 11/21 | OCR and text recognition: Based on Baidu PaddlePaddle platforms                                             |        \[Lec8\]        |
+|  13  | 11/28 | OCR and text recognition: Based on Baidu PaddlePaddle platform                                              |        \[Lec9\]        |
+|  14  | 12/5  | Research Project Report Presentations                                                                       | Students Presentations |
 
 : Fruit prices {.striped .hover}
