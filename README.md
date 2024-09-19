@@ -17,3 +17,24 @@ The course prioritizes practical skills and intuition over theoretical or mathem
 Specifically, students will learn how to use various data science and AI tools to analyze non-traditional data sources and make reliable predictions about economic and social relationships. This course is designed to help students become more competitive in the field of economic research in the digital age.
 
 ------------------------------------------------------------------------
+
+## Schedual 
+
+| Week | Date  | Topic                                                                                                       |         Slides         |
+|:----------------:|:-----------------|:-----------------|:-----------------:|
+|  3   | 9/19  | Introduction to course content, Data Science, AI and Economics, Introduction to basic data analysis process |        [Lec0]()        |
+|  4   | 9/26  | Introduction to basic AI tools: Github(Copilot) IDEs ect.  |        \[Lec1\]        |
+|  5   | 10/3  | Introduction to R and Python                                                                                |       \[Lec2\])        |
+|  6   | 10/10 | Introduction to R and Python                                                                                |       \[Lec3\])        |
+|  7   | 10/17 | Introduction to spatial data and GIS analysis: Using NASA night light data as an example                    |        \[Lec4\]        |
+|  8   | 10/24 | Introduction to spatial data and GIS analysis: Using NASA night light data as an example                    |       \[Lec5\])        |
+|  9   | 10/31 | Research Project Proposal Presentations                                                                     | Students Presentations |
+|  10  | 11/7  | Web scraping and text analysis: Based on Baidu search (or Sina Weibo)                                       |        \[Lec6\]        |
+|  11  | 11/14 | Web scraping and text analysis: Based on Baidu search (or Sina Weibo)                                       |        \[Lec7\]        |
+|  12  | 11/21 | OCR and text recognition: Based on Baidu PaddlePaddle platforms                                             |        \[Lec8\]        |
+|  13  | 11/28 | OCR and text recognition: Based on Baidu PaddlePaddle platform                                              |        \[Lec9\]        |
+|  14  | 12/5  | Research Project Report Presentations                                                                       | Students Presentations |
+
+
+
+
