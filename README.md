@@ -2,9 +2,8 @@
 
 ## Description
 
-::: callout-important
 Welcome to the course website for the 2024 edition of **Data Science and Artificial Intelligence for Economic and Social Research**. This is an exciting opportunity to explore a rapidly evolving field at the forefront of innovation in economics. Together, we will delve into the dynamic world of artificial intelligence and data science, engaging in cutting-edge experiments and learning experiences that are both challenging and rewarding. I’m thrilled to embark on this journey with you and look forward to the our discoveries together.
-:::
+
 
 ------------------------------------------------------------------------
 
