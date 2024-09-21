@@ -20,7 +20,7 @@ output:
 | Week | Date  | Topic                                                                                                       |                                Slides                                |
 |:----------------:|:-----------------|:-----------------|:-----------------:|
 |  3   | 9/19  | Introduction to course content, Data Science, AI and Economics, Introduction to basic data analysis process | [Lec0](https://byelenin.github.io/Metrics_2023/Slides/DSAI/Lec0_DSAI_2024.pdf) |
-|  4   | 9/26  | Introduction to basic AI tools: Github(Copilot) IDEs ect.                                                   |                               \[Lec1\]                               |
+|  4   | 9/26  | Introduction to basic AI tools: Github(Copilot) IDEs ect.                                                   |                               [Lec1](https://byelenin.github.io/DSAI_2024/slides/Lec0/DSAI_Lec0_2024_Short.html)                               |
 |  5   | 10/3  | Introduction to R and Python                                                                                |                              \[Lec2\])                               |
 |  6   | 10/10 | Introduction to R and Python                                                                                |                              \[Lec3\])                               |
 |  7   | 10/17 | Introduction to spatial data and GIS analysis: Using NASA night light data as an example                    |                               \[Lec4\]                               |
